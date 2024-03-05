@@ -3,8 +3,8 @@ import React from 'react'
 export default function Navbar() {
   return (
     <nav>
-        <div className="flex justify-center">
-        <ul className="flex w-[500px] justify-between text-xl py-4">
+        <div>
+        <ul className="flex w-auto justify-around text-sm p-4">
             <li>
                 Home
             </li>

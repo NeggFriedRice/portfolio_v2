@@ -8,6 +8,7 @@
   font-family: DM Sans, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 600;
+  background-color: blanchedalmond;
 
 
 
@@ -17,6 +18,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+@layer utilities {
+  .square {
+    aspect-ratio: 1 / 1;
+  }
+}
 
 /* body {
   margin: 0;
