@@ -6,8 +6,12 @@ export default function About() {
     <>
         
         <div className="font-light flex-col justify-center px-6 bg-teal-600 text-white text-[clamp(16px,2vw,36px)] py-[5vh]">
-            <div className="inline text-[clamp(26px,10vw,48px)]">About</div>
-            <div className="w-[80vw] h-[1px] bg-white rounded-sm"></div>
+            <div className="flex justify-items-end justify-end">
+                <div className="inline text-[clamp(26px,10vw,48px)] px-16">About</div>
+            </div>
+            <div className="flex justify-items-end justify-end">
+            <div className="w-[83vw] h-[1px] bg-white rounded-sm mx-8"></div>
+            </div>
             <div className="py-6 flex justify-center">
                 <div className="w-[80vw] grid grid-cols-2">
                     <p className="py-2 col-start-1 col-span-2">A bright-eyed 👀, squash-playing 🎾, car-enthusiast 🚗 junior full stack web developer that likes tinkering with code and creating something <em>a little bit special</em> for your eyes.</p>

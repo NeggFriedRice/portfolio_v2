@@ -7,7 +7,7 @@ export default function AboutMoreModal() {
   return (
     <>
       <button
-        className="bg-pink-500 text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+        className="bg-pink-500 text-white active:bg-pink-600 font-bold uppercase text-sm my-5 px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
         type="button"
         onClick={() => setShowModal(true)}
       >
@@ -42,7 +42,7 @@ export default function AboutMoreModal() {
                     <ul className="list-disc px-4 text-sm font-['Poppins']">
                         <li>Operations role in Melbourne</li>
                         <li>IT consultant in Hong Kong (worked on some <em>really</em> cool stuff)</li>
-                        <li>Business Analyst in Hong Kong (less cool stuff, still made a big impact)</li>
+                        <li>Business Analyst in Hong Kong (less cool stuff, still big impact)</li>
                     </ul>
                   </div>
                   <div className="my-4 text-blueGray-500 text-[clamp(22px,3vw,36px)] leading-relaxed font-light font-['Lilita_One']">
