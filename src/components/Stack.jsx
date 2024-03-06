@@ -1,6 +1,6 @@
-import React from 'react'
-
 export default function Stack() {
+
+
   return (
     <>
     <div className="font-light flex-col justify-center px-6 bg-blue-600 text-white text-[clamp(16px,2vw,36px)] py-[5vh]"> 

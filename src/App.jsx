@@ -5,6 +5,8 @@ import Bio from './components/Bio'
 import Stack from './components/Stack'
 import About from './components/About'
 import Projects from './components/Projects'
+import StickyBox from "react-sticky-box"
+import Socials from './components/Socials'
 
 
 function App() {
@@ -12,6 +14,9 @@ function App() {
   return (
     <>
       <Navbar />
+      <StickyBox offsetTop={50} offsetBottom={20}>
+        <Socials />
+      </StickyBox>
       <Bio />
       <Stack />
       <About />

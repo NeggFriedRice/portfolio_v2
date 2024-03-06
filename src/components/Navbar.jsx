@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav>
         <div>
-        <ul className="flex w-auto justify-around text-sm p-4">
+        <ul className="flex w-auto justify-around text-sm p-4 bg-slate-50">
             <li>
                 Home
             </li>
@@ -19,6 +19,7 @@ export default function Navbar() {
             </li>
         </ul>
         </div>
+
     </nav>
 
   )
