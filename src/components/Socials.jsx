@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function Socials() {
+
+  const [emailToggle, setEmailToggle] = useState(false)
+
+
   return (
     <div className="flex justify-end px-4 absolute right-1">
         <div className="">
@@ -18,9 +22,9 @@ export default function Socials() {
                 </svg>
                 </a>
             </div>
-            <div className="py-2">
+            <div className="py-2" onClick={() => setEmailToggle(emailToggle => !emailToggle)}>
               <img className="h-[35px] lg:h-[60px]" src="email.svg" />
-              <p className="absolute rotate-90 right-[-60px] top-[230px] lg:right-[-165px] lg:top-[430px] lg:text-[36px] text-white font-light">tomloo222@gmail.com</p>
+              {emailToggle ? (<p className="absolute rotate-90 right-[-60px] top-[230px] lg:right-[-165px] lg:top-[430px] lg:text-[36px] text-white font-light">tomloo222@gmail.com</p>) : (<div/>)}
             </div>
         </div>
     </div>

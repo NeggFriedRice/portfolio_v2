@@ -20,11 +20,18 @@ export default {
       animation: {
         bobble: 'bobble 3s ease-in-out infinite',
         bobbleFast: 'bobble 1s ease-in-out infinite'
+      },
+      animationDuration: {
+        '1s': '1s',
+        '1.25s': '1.25s',
+        '1.5s': '1.5s',
+        '2s': '2s',
       }
     },
   },
   plugins: [
     require('@tailwindcss/aspect-ratio'),
+    require("tailwindcss-animate"),
   ],
 }
 
