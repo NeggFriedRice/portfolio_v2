@@ -18,7 +18,8 @@ export default {
         }
       },
       animation: {
-        bobble: 'bobble 3s ease-in-out infinite'
+        bobble: 'bobble 3s ease-in-out infinite',
+        bobbleFast: 'bobble 1s ease-in-out infinite'
       }
     },
   },

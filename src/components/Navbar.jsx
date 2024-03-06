@@ -12,7 +12,7 @@ export default function Navbar() {
                 Projects
             </li>
             <li> 
-                About Me
+                About
             </li>
             <li>
                 Contact

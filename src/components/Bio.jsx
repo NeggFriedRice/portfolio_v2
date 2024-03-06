@@ -13,7 +13,7 @@ export default function Bio() {
                 </div>
             </div>
             <div className="flex bg-slate-200 justify-center items-center"> 
-                <img src="profile_pic2.png" className="shadow-block-md "/>
+                <img src="profile_pic2.png" className="shadow-block-md hover:scale-105 hover:rounded-lg transition-all ease-in-out delay-100 duration-300"/>
             </div>
         </div> 
     </>
