@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Honkg, Lilita_One, Londrina_Outline, Poppins fonts available */
+/* Honk, Lilita_One, Londrina_Outline, Poppins fonts available */
 
 :root {
   font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;

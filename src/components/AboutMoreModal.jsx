@@ -24,7 +24,7 @@ export default function AboutMoreModal() {
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
                   <h3 className="text-3xl font-semibold">
-                    My life story...
+                    My story...
                   </h3>
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
@@ -37,11 +37,23 @@ export default function AboutMoreModal() {
                 </div>
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
-                  <p className="my-4 text-blueGray-500 text-lg leading-relaxed font-light">
-                    Let's jump back to 6 years ago when I moved from Melbourne, Australia to Hong Kong.
-
-                    It might've been the 
-                  </p>
+                  <div className="my-4 text-blueGray-500 text-[clamp(22px,3vw,36px)] leading-relaxed font-light font-['Lilita_One']">
+                    Things I did before software development:
+                    <ul className="list-disc px-4 text-sm font-['Poppins']">
+                        <li>Operations role in Melbourne</li>
+                        <li>IT consultant in Hong Kong (worked on some <em>really</em> cool stuff)</li>
+                        <li>Business Analyst in Hong Kong (less cool stuff, still made a big impact)</li>
+                    </ul>
+                  </div>
+                  <div className="my-4 text-blueGray-500 text-[clamp(22px,3vw,36px)] leading-relaxed font-light font-['Lilita_One']">
+                    Things I do in my spare time:
+                    <ul className="list-disc px-4 text-sm font-['Poppins']">
+                        <li>Play squash and badminton 🏸</li>
+                        <li>Play board games 🎲</li>
+                        <li>Play video games 🎮</li>
+                        <li>Watch anime 📺</li>
+                    </ul>
+                  </div>
                 </div>
                 {/*footer*/}
 
