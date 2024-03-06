@@ -15,7 +15,7 @@ export default {
         bobble: {
           '0%, 100%': {transform: 'rotate(-1deg)'},
           '50%': {transform: 'rotate(15deg)'},
-        }
+        },
       },
       animation: {
         bobble: 'bobble 3s ease-in-out infinite',
