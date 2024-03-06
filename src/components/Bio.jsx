@@ -3,7 +3,7 @@ import React from 'react'
 export default function Bio() {
   return (
     <>
-        <div className="flex flex-wrap lg:grid lg:grid-cols-4 justify-center h-[80vh] items-center bg-green-100">
+        <div className="flex flex-wrap lg:grid lg:grid-cols-4 justify-center h-[80vh] items-center bg-cyan-600">
             <div className="flex w-auto h-[300px]justify-center items-center lg:col-start-2">
                 <div>
                     <h1 className="text-[48px] font-['Lilita_One'] mx-12">Hi! I'm Tom</h1>
