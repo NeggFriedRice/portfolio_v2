@@ -10,7 +10,7 @@ export default function About() {
                 <div className="inline text-[clamp(26px,10vw,48px)] px-16">About</div>
             </div>
             <div className="flex justify-items-end justify-end">
-            <div className="w-[83vw] h-[1px] bg-white rounded-sm mx-8"></div>
+            <div className="w-[83vw] h-[1px] bg-white rounded-sm mx-12"></div>
             </div>
             <div className="py-6 flex justify-center">
                 <div className="w-[80vw] grid grid-cols-2">
@@ -20,8 +20,8 @@ export default function About() {
                         <AboutMoreModal />
                     </div>
                     <div className="grid grid-cols-12 grid-rows-12 h-48 relative aspect-square justify-center justify-self-center">
-                        <img src="computer.png" className="col-span-8 col-start-3 row-start-6"></img>
-                        <img src="stickerhead.png" className="col-span-6 col-start-6 row-start-1 animate-bobble origin-bottom hover:animate-bobbleFast transition-all"></img>
+                        <img src="computer.png" className="col-span-8 col-start-3 row-start-6 max-h-36 max-w-72"></img>
+                        <img src="stickerhead.png" className="col-span-6 col-start-6 row-start-1 animate-bobble origin-bottom hover:animate-bobbleFast transition-all max-h-27 max-w-24"></img>
                     </div>
                 </div>
 
