@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       boxShadow: {
+        'block-xs': '0.25rem 0.25rem black',
         'block-sm': '0.5rem 0.5rem black',
+        'block-smmd': '0.75rem 0.75rem black',
         'block-md': '1rem 1rem black',
         'block-lg': '1.5rem 1.5rem black',
       },
@@ -22,6 +24,12 @@ export default {
         bobbleFast: 'bobble 1s ease-in-out infinite'
       },
       animationDuration: {
+        '1s': '1s',
+        '1.25s': '1.25s',
+        '1.5s': '1.5s',
+        '2s': '2s',
+      },
+      transitionDuration: {
         '1s': '1s',
         '1.25s': '1.25s',
         '1.5s': '1.5s',
