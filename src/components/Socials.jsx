@@ -7,7 +7,7 @@ export default function Socials() {
 
   return (
     <div className="flex justify-end px-4 fixed right-1">
-        <div className="fixed">
+        <div className="fixed top-[5vh]">
             <div className="py-2 hover:scale-[90%] transition-all delay-100 duration-300">
                 <a href="https://github.com/NeggFriedRice" target="_blank">
                 <svg className="h-[35px] lg:h-[60px]" viewBox="0 0 128 128">
@@ -15,7 +15,7 @@ export default function Socials() {
                 </svg>
                 </a>
             </div>
-            <div className="py-2 hover:scale-[90%] transition-all delay-100  duration-300">
+            <div className="py-2 hover:scale-[90%] transition-all delay-100 duration-300">
                 <a href="https://www.linkedin.com/in/thomas-loo" target="_blank">
                 <svg className="h-[35px] lg:h-[60px]" viewBox="0 0 128 128">
                 <g fill="#fff"><path d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3zM39.17 107H21.06V48.73h18.11zm-9-66.21a10.5 10.5 0 1110.49-10.5 10.5 10.5 0 01-10.54 10.48zM107 107H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53V48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75z"></path></g>
@@ -23,8 +23,8 @@ export default function Socials() {
                 </a>
             </div>
             <div className="py-2" onClick={() => setEmailToggle(emailToggle => !emailToggle)}>
-              <img className="h-[35px] lg:h-[60px] hover:scale-[90%] transition-all delay-100  duration-300" src="email.svg" />
-              {emailToggle ? (<p className="fixed rotate-90 right-[-55px] top-[280px] lg:right-[-165px] lg:top-[460px] lg:text-[36px] text-white font-light animate-in slide-in-from-right">tomloo222@gmail.com</p>) : (<div></div>)}
+              <img className="h-[35px] lg:h-[60px] hover:scale-[90%] transition-all delay-100 duration-300" src="email.svg" />
+              {emailToggle ? (<p className="fixed rotate-90 right-[-55px] top-[280px] lg:right-[-155px] lg:top-[465px] lg:text-[36px] text-white font-light animate-in slide-in-from-right">tomloo222@gmail.com</p>) : (<div></div>)}
             </div>
         </div>
     </div>
