@@ -18,17 +18,24 @@ export default {
           '0%, 100%': {transform: 'rotate(-1deg)'},
           '50%': {transform: 'rotate(15deg)'},
         },
-      },
-      animation: {
-        bobble: 'bobble 3s ease-in-out infinite',
-        bobbleFast: 'bobble 1s ease-in-out infinite'
+        breathe: {
+          '0%, 100%': {transform: 'scale(1)'},
+          '50%': {transform: 'scale(1.05)'}
+        }
       },
       animationDuration: {
         '1s': '1s',
         '1.25s': '1.25s',
         '1.5s': '1.5s',
         '2s': '2s',
+        '5s': '5s',
       },
+      animation: {
+        bobble: 'bobble 3s ease-in-out infinite',
+        bobbleFast: 'bobble 1s ease-in-out infinite',
+        breathe: 'breathe 2s ease-in-out infinite',
+      },
+
       transitionDuration: {
         '1s': '1s',
         '1.25s': '1.25s',

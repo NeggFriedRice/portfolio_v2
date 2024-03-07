@@ -6,12 +6,18 @@ export default function AboutMoreModal() {
     const [showModal, setShowModal] = React.useState(false);
   return (
     <>
+    
       <button
-        className="bg-pink-500 text-white active:bg-pink-600 font-bold uppercase text-sm my-5 px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+        className="bg-pink-500 text-white active:bg-pink-600 hover:bg-pink-400 font-bold uppercase text-sm my-5 px-6 py-3 rounded-[12px] shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all lg:text-[1.5rem] lg:rounded-[12px] flex "
         type="button"
         onClick={() => setShowModal(true)}
       >
-        A bit more info please...
+        <span class="relative flex top-[-2px] right-[12px] h-5 w-5">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-600 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-5 w-5 bg-blue-500"></span>
+        </span>
+        More info please...
+
       </button>
       {showModal ? (
         <>
@@ -24,7 +30,7 @@ export default function AboutMoreModal() {
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
                   <h3 className="text-3xl font-semibold">
-                    My story...
+                    As you wish!
                   </h3>
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
