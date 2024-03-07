@@ -7,7 +7,7 @@ export default function Socials() {
 
   return (
     <div className="flex justify-end px-4 fixed right-1">
-        <div className="">
+        <div className="fixed">
             <div className="py-2 hover:scale-[90%] transition-all delay-100 duration-300">
                 <a href="https://github.com/NeggFriedRice" target="_blank">
                 <svg className="h-[35px] lg:h-[60px]" viewBox="0 0 128 128">
@@ -24,7 +24,7 @@ export default function Socials() {
             </div>
             <div className="py-2" onClick={() => setEmailToggle(emailToggle => !emailToggle)}>
               <img className="h-[35px] lg:h-[60px] hover:scale-[90%] transition-all delay-100  duration-300" src="email.svg" />
-              {emailToggle ? (<p className="fixed rotate-90 right-[-55px] top-[280px] lg:right-[-165px] lg:top-[430px] lg:text-[36px] text-white font-light animate-in slide-in-from-right">tomloo222@gmail.com</p>) : (<div></div>)}
+              {emailToggle ? (<p className="fixed rotate-90 right-[-55px] top-[280px] lg:right-[-165px] lg:top-[460px] lg:text-[36px] text-white font-light animate-in slide-in-from-right">tomloo222@gmail.com</p>) : (<div></div>)}
             </div>
         </div>
     </div>
