@@ -1,20 +1,20 @@
 // Modal borrowed from Creative Tim Tailwind Starter Kit (https://www.creative-tim.com/)
 
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function AboutMoreModal() {
-    const [showModal, setShowModal] = React.useState(false);
+    const [showModal, setShowModal] = useState(false);
   return (
     <>
     
       <button
-        className="bg-pink-500 text-white active:bg-pink-600 hover:bg-pink-400 font-bold uppercase text-sm my-5 px-6 py-3 rounded-[12px] shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all lg:text-[1.5rem] lg:rounded-[12px] flex "
+        className="bg-pink-500 text-white active:bg-pink-600 hover:bg-pink-400 font-bold uppercase text-sm my-5 px-6 py-3 rounded-[12px] shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all lg:text-[1.5rem] lg:rounded-[12px] flex"
         type="button"
         onClick={() => setShowModal(true)}
       >
-        <span class="relative flex top-[-2px] right-[12px] h-5 w-5">
-          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-600 opacity-75"></span>
-          <span class="relative inline-flex rounded-full h-5 w-5 bg-blue-500"></span>
+        <span class="relative flex top-[1px] right-[12px] h-5 w-5 ">
+          <span class="animate-ping absolute inline-flex h-full w-full  bg-blue-600 opacity-75"></span>
+          <span class="relative inline-flex  h-5 w-5 bg-blue-500 hover:bg-blue-300 hover:rotate-90 transition-all duration-500"></span>
         </span>
         More info please...
 

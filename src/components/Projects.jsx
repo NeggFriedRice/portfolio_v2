@@ -64,7 +64,7 @@ export default function Projects() {
               <div className="h-36 w-64 bg-slate-300 shadow-block-md m-4"></div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[5rem]">BeyBlade Battle Sim</h3>
-                <p>A quick text-based three-round game planting you smack bang in the middle of the Beyblade Universe (<em>geeky, I know...)</em></p>
+                <p>A quick terminal-based three-round game planting you smack bang in the middle of the Beyblade Universe (<em>geeky, I know...)</em></p>
                 <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[100px] lg:w-[150px] transition duration-2s my-4 mx-auto lg:mx-0`}>
                     <img src="../../public/python.svg" className={`${smallIcon} ${largeIcon}`}/>
                 </div>
