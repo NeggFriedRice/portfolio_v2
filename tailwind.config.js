@@ -21,19 +21,38 @@ export default {
         breathe: {
           '0%, 100%': {transform: 'scale(1)'},
           '50%': {transform: 'scale(1.05)'}
+        },
+        float: {
+          '0%' : { transform: 'translateY(0px)'},
+          '50%' : { transform: 'translateY(5px)'},
+          '100%' : { transform: 'translateY(0px)'},
         }
       },
       animationDuration: {
         '1s': '1s',
         '1.25s': '1.25s',
+        '1.35s': '1.35s',
+        '1.45s': '1.45s',
         '1.5s': '1.5s',
+        '1.55s': '1.55s',
+        '1.6s': '1.6s',
+        '1.65s': '1.65s',
+        '1.75s' : '1.75s',
+        '1.8s' : '1.8s',
+        '1.85s' : '1.85s',
+        '1.9s' : '1.9s',
+        '1.95s' : '1.95s',
         '2s': '2s',
+        '2.25s' : '2.25s',
+        '2.5s' : '2.5s',
+        '3s': '3s',
         '5s': '5s',
       },
       animation: {
         bobble: 'bobble 3s ease-in-out infinite',
         bobbleFast: 'bobble 1s ease-in-out infinite',
         breathe: 'breathe 2s ease-in-out infinite',
+        float: 'float ease-in-out infinite',
       },
 
       transitionDuration: {
