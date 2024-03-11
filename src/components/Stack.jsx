@@ -3,7 +3,7 @@ import Reveal from "../utils/Reveal"
 
 export default function Stack() {
 
-  const stackStyle = "h-16 w-16 m-2 hover:scale-110 transition-all delay-75 animate-float"
+  const stackStyle = "h-16 w-16 m-2 transition-all delay-75 animate-float"
 
   return (
     <>

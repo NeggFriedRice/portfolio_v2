@@ -37,7 +37,7 @@ export default function Reveal({children}) {
                 }}
                 initial="hidden"
                 animate={slideControls}
-                transition={{duration: 0.5, ease: "easeIn", delay: 0.15 }}
+                transition={{duration: 0.5, ease: "easeIn" }}
                 style={{
                     position: "absolute",
                     top: 4,

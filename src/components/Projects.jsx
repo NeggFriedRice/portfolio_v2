@@ -18,8 +18,8 @@ export default function Projects() {
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="h-36 w-64 bg-slate-300 shadow-block-md m-4"></div>
               <div className="m-2 lg:m-8">
-                <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[5rem]">Portfolio redesign</h3>
-                <p>Something to keep me busy and an opportunity to put into practice what I wanted to practice.</p>
+                <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">Portfolio redesign</h3>
+                <p>Something to keep me busy and an avenue to explore the bits and bobs I've learned from watching a long list of YouTube tutorials (<em>...design brief not included</em>).</p>
                 <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[300px] lg:w-[400px] transition duration-2s my-4 mx-auto lg:mx-0`}>
                     <img src="../../public/html.svg" className={`${smallIcon} ${largeIcon}`}/>
                     <img src="../../public/css.svg" className={`${smallIcon} ${largeIcon}`}/>
@@ -33,7 +33,7 @@ export default function Projects() {
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="h-36 w-64 bg-slate-300 shadow-block-md m-4"></div>
               <div className="m-2 lg:m-8">
-                <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[5rem]">AnimeScreen</h3>
+                <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">AnimeScreen</h3>
                 <p>Event scheduler aimed at the anime crowd; group project built with 2 CoderAcademy classmates.</p>
                 <div className={`${iconHolderStyles} flex flex-wrap justify-center bg-blue-700 hover:bg-blue-800 w-[270px] lg:w-[370px] transition duration-2s my-4 mx-auto lg:mx-0`}>
                     <img src="../../public/html.svg" className={`${smallIcon} ${largeIcon}`}/>
@@ -51,7 +51,7 @@ export default function Projects() {
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="h-36 w-64 bg-slate-300 shadow-block-md m-4"></div>
               <div className="m-2 lg:m-8">
-                <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[5rem]">CARtificate</h3>
+                <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">CARtificate</h3>
                 <p>A work in progress. A simple-to-use web app to keep track of all your car maintenance, including photos of receipts.</p>
                 <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[300px] lg:w-[400px] transition duration-2s my-4 mx-auto lg:mx-0`}>
                     <img src="../../public/html.svg" className={`${smallIcon} ${largeIcon}`}/>
@@ -66,7 +66,7 @@ export default function Projects() {
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="h-36 w-64 bg-slate-300 shadow-block-md m-4"></div>
               <div className="m-2 lg:m-8">
-                <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[5rem]">BeyBlade Battle Sim</h3>
+                <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[2.5rem]">BeyBlade Battle Sim</h3>
                 <p>A quick terminal-based three-round game planting you smack bang in the middle of the Beyblade Universe (<em>geeky, I know...)</em></p>
                 <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[100px] lg:w-[150px] transition duration-2s my-4 mx-auto lg:mx-0`}>
                     <img src="../../public/python.svg" className={`${smallIcon} ${largeIcon}`}/>

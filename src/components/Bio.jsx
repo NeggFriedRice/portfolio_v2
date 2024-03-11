@@ -20,7 +20,7 @@ export default function Bio() {
           <div>
           
             <div className="">
-            <Reveal colour="fff">
+            <Reveal>
               <h1 className="text-[48px] font-['Poppins'] mx-12 text-white overflow-hidden">
                 Thomas Loo
               </h1>

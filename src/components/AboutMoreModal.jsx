@@ -45,7 +45,7 @@ export default function AboutMoreModal() {
                 <div className="relative p-6 flex-auto">
                   <div className="my-4 text-blueGray-500 text-[clamp(22px,3vw,36px)] leading-relaxed font-light font-['Lilita_One']">
                     Things I did before software development:
-                    <ul className="list-disc px-4 text-sm font-['Poppins']">
+                    <ul className="list-disc px-4 text-lg font-['Poppins']">
                         <li>Operations role in Melbourne</li>
                         <li>IT consultant in Hong Kong (worked on some <em>really</em> cool stuff)</li>
                         <li>Business Analyst in Hong Kong (less cool stuff, still big impact)</li>
@@ -53,7 +53,7 @@ export default function AboutMoreModal() {
                   </div>
                   <div className="my-4 text-blueGray-500 text-[clamp(22px,3vw,36px)] leading-relaxed font-light font-['Lilita_One']">
                     Things I do in my spare time:
-                    <ul className="list-disc px-4 text-sm font-['Poppins']">
+                    <ul className="list-disc px-4 text-lg font-['Poppins']">
                         <li>Play squash and badminton 🏸</li>
                         <li>Play board games 🎲</li>
                         <li>Play video games 🎮</li>

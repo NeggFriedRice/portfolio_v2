@@ -9,7 +9,7 @@ export default function Socials() {
   return (
     <div className="flex justify-end px-4 fixed right-1">
         <div className="fixed top-[5vh]">
-            <div className="py-2 hover:scale-[90%] transition-all delay-100 duration-300">
+            <div className="py-2 hover:scale-[90%] transition-all delay-100 duration-300 hover:opacity-60">
                 <a href="https://github.com/NeggFriedRice" target="_blank">
                 <motion.svg 
                   initial={{ x: 100 }}
@@ -20,7 +20,7 @@ export default function Socials() {
                 </motion.svg>
                 </a>
             </div>
-            <div className="py-2 hover:scale-[90%] transition-all delay-100 duration-300">
+            <div className="py-2 hover:scale-[90%] transition-all delay-100 duration-300 hover:opacity-60">
                 <a href="https://www.linkedin.com/in/thomas-loo" target="_blank">
                 <motion.svg
                   initial={{ x: 100 }}
@@ -36,7 +36,7 @@ export default function Socials() {
               animate={{ x: 0 }}
               transition={{ delay: 1.7, duration: 2, type: 'spring', stiffness: 200}}
               className="py-2" onClick={() => setEmailToggle(emailToggle => !emailToggle)}>
-              <img className="h-[35px] lg:h-[60px] hover:scale-[90%] transition-all delay-100 duration-300" src="email.svg" />
+              <img className="h-[35px] lg:h-[60px] hover:scale-[90%] transition-all delay-100 duration-300 hover:opacity-60" src="email.svg" />
               {emailToggle ? 
               (<motion.p
                 initial={{ x: 100, rotate: 90}}
