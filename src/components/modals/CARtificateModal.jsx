@@ -56,7 +56,7 @@ export default function CARtificateModal() {
                     <div className="relative p-6 flex-auto">
                       <div className="my-4 text-[clamp(22px,3vw,36px)] leading-relaxed font-light font-['Lilita_One']">
                         <ul className="list-disc px-4 text-sm lg:text-xl font-['Poppins']">
-                            <li className="my-4">I had the pleasure of having to sell an ageing, niche convertible sports car with a pile of maintenance work over the years that was lost to a similarly ageing PC that no longer wished to run.</li>
+                            <li className="my-4">I had the pleasure of having to sell an ageing, niche convertible sports car with a virtually-stored pile of maintenance work over the years that was lost to a similarly ageing PC that no longer wished to run.</li>
                             <li className="my-4">This web app was built for fun and as practice for myself. Something with a practical usecase and hopefully something that I can eventually finish and use (<em>apparently these are famous last words?</em>).</li>
                             <div className="py-2 transition-all delay-100 duration-300 hover:opacity-60">
                             
