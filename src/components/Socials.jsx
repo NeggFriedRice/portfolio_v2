@@ -45,7 +45,8 @@ export default function Socials() {
                   animate={{ x: 0, rotate: 90}}
                   exit={{ x:100, rotate: 90 }}
                   transition={{ type: 'spring', stiffness: 250, damping: 16 }}
-                  className="fixed rotate-90 right-[-55px] top-[280px] lg:right-[-155px] lg:top-[465px] lg:text-[36px] text-white font-light">tomloo222@gmail.com
+                  className="fixed rotate-90 right-[-55px] top-[280px] lg:right-[-155px] lg:top-[465px] lg:text-[36px] text-white font-light">
+                    tomloo222@gmail.com
                 </motion.p>
                 )}
               </AnimatePresence>

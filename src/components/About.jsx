@@ -10,7 +10,7 @@ export default function About() {
             <div className="lg:w-[70vw] w-[100vw]">
 
                 <div className="flex justify-items-end justify-end px-16">
-                <Reveal>
+                <Reveal direction={"left"}>
                     <div className="inline text-[clamp(26px,10vw,48px)]">About</div>
                 </Reveal>
                 </div>

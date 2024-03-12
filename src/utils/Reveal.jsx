@@ -2,7 +2,9 @@ import React, { useEffect, useRef} from 'react'
 import { motion, useInView, useAnimation } from 'framer-motion'
 
 
-export default function Reveal({children}) {
+export default function Reveal({children, direction}) {
+
+    console.log(direction)
 
     const ref = useRef(null)
     const isInView = useInView(ref, { once: true })
@@ -32,8 +34,8 @@ export default function Reveal({children}) {
             </motion.div>
             <motion.div
                 variants={{
-                    hidden: { left: 0 },
-                    visible: {left: "100%" },
+                    hidden: { [direction]: 0 },
+                    visible: { [direction]: "100%" },
                 }}
                 initial="hidden"
                 animate={slideControls}
