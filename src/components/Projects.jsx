@@ -14,12 +14,12 @@ export default function Projects() {
   return (
     <div>
         <div className="font-light flex justify-center px-6 bg-sky-600 text-white text-[clamp(16px,2vw,36px)] py-[5vh]">
-          <div className="lg:w-[70vw] mx-8">
+          <div className="xl:w-[55vw] lg:w-[70vw] mx-8">
             <Reveal direction={"right"}>
               <div className="inline text-[clamp(26px,10vw,48px)]">Projects</div>
             </Reveal>
             
-            <div className="lg:w-[70vw] w-[80vw] h-[1px] bg-white rounded-sm"></div>
+            <div className="xl:w-[60vw] lg:w-[70vw] w-[80vw] h-[1px] bg-white rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center my-4">
                 <video autoPlay loop muted src="/videos/portfolio-vid.mp4" width="300" height="300" className="shadow-block-md"/>

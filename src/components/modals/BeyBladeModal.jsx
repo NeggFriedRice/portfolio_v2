@@ -28,9 +28,9 @@ export default function BeyBladeModal() {
             >
             <motion.div
               variants={{
-                hidden: { x: -75, opacity: 0 },
-                visible: { x: 0, opacity: 1 },
-                exit: { x: 75, opacity: 0},
+                hidden: { y: -75, opacity: 0 },
+                visible: { y: 0, opacity: 1 },
+                exit: { y: 75, opacity: 0},
               }}
               initial='hidden'
               animate='visible'

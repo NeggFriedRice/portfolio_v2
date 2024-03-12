@@ -7,7 +7,7 @@ export default function Socials() {
 
 
   return (
-    <div className="absolute flex justify-end px-4 right-1">
+    <div className="absolute flex justify-end px-2 right-1">
         <div className="fixed">
             <div className="py-2 hover:scale-[90%] transition-all delay-100 duration-300 hover:opacity-60">
                 <a href="https://github.com/NeggFriedRice" target="_blank">
