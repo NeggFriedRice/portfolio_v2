@@ -26,7 +26,7 @@ export default function Projects() {
               </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">Portfolio redesign</h3>
-                <p>Something to keep me busy and an avenue to explore the bits and bobs I've learned from watching a long list of YouTube tutorials (<em>...design brief not included</em>).</p>
+                <p>Something to keep me busy and an avenue to explore the bits and bobs I've learned from watching a long list of YouTube tutorials.</p>
                 <PortfolioModal />
                 <div className="animate-float duration-1.85s">
                   <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[300px] lg:w-[400px] transition duration-2s my-4 mx-auto lg:mx-0`}>

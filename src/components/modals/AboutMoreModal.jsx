@@ -66,9 +66,9 @@ export default function AboutMoreModal() {
                         Things I do in my spare time:
                         <ul className="list-disc px-4 text-lg font-['Poppins']">
                             <li>Play squash and badminton 🏸</li>
-                            <li>Play board games 🎲</li>
-                            <li>Play video games 🎮</li>
+                            <li>Play board games and video games 🎲🎮</li>
                             <li>Watch anime 📺</li>
+                            <li>Search for bargains 💰</li>
                         </ul>
                       </div>
                     </div>
