@@ -15,9 +15,12 @@ export default function Projects() {
             <Reveal direction={"right"}>
               <div className="inline text-[clamp(26px,10vw,48px)]">Projects</div>
             </Reveal>
+            
             <div className="lg:w-[70vw] w-[80vw] h-[1px] bg-white rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
-              <div className="h-36 w-64 bg-slate-300 shadow-block-md m-4"></div>
+              <div className="flex justify-center items-center my-4">
+                <video autoPlay loop muted src="../../public/videos/portfolio-vid.mp4" width="300" height="300" className="shadow-block-md"/>
+              </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">Portfolio redesign</h3>
                 <p>Something to keep me busy and an avenue to explore the bits and bobs I've learned from watching a long list of YouTube tutorials (<em>...design brief not included</em>).</p>
@@ -35,7 +38,9 @@ export default function Projects() {
             </div>
             <div className="w-[80vw] lg:w-[60vw] h-[1px] bg-sky-400 rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
-              <div className="h-36 w-64 bg-slate-300 shadow-block-md m-4"></div>
+              <div className="flex justify-center items-center my-4">
+                <video autoPlay loop muted src="../../public/videos/animescreen-vid.mp4" width="300" height="300" className="shadow-block-md"/>
+              </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">AnimeScreen</h3>
                 <p>Event scheduler aimed at the anime crowd; group project built with 2 CoderAcademy classmates.</p>
@@ -72,7 +77,9 @@ export default function Projects() {
             </div>
             <div className="w-[80vw] lg:w-[60vw] h-[1px] bg-sky-400 rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
-              <div className="h-36 w-64 bg-slate-300 shadow-block-md m-4"></div>
+            <div className="flex justify-center items-center my-4">
+              <video autoPlay loop muted src="../../public/videos/beyblade-vid2.mp4" width="400" height="300" className="shadow-block-md border-r-1 border-b-1 border-slate-600"/>
+            </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[2.5rem]">BeyBlade Battle Sim</h3>
                 <p>A quick terminal-based three-round game planting you smack bang in the middle of the Beyblade Universe (<em>geeky, I know...)</em></p>

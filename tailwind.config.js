@@ -64,6 +64,10 @@ export default {
 
       rotate: {
         '360': '360deg'
+      },
+
+      borderWidth: {
+        '1': '1px'
       }
     },
   },
