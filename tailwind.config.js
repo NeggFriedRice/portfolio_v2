@@ -71,6 +71,9 @@ export default {
       }
     },
   },
+  screens: {
+    'sm': '420px',
+  },
   plugins: [
     require('@tailwindcss/aspect-ratio'),
     require("tailwindcss-animate"),

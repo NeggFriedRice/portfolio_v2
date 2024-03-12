@@ -1,6 +1,7 @@
 import React from 'react'
 import Reveal from '../utils/Reveal'
 import PortfolioModal from './PortfolioModal'
+import AnimeScreenModal from './AnimeScreenModal'
 
 export default function Projects() {
 
@@ -43,7 +44,8 @@ export default function Projects() {
               </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">AnimeScreen</h3>
-                <p>Event scheduler aimed at the anime crowd; group project built with 2 CoderAcademy classmates.</p>
+                <p>Full stack event scheduler app aimed squarely at the anime crowd; group project built with two other Coder Academy classmates.</p>
+                <AnimeScreenModal />
                 <div className="animate-float duration-2s">
                   <div className={`${iconHolderStyles} flex flex-wrap justify-center bg-blue-700 hover:bg-blue-800 w-[270px] lg:w-[370px] transition duration-2s my-4 mx-auto lg:mx-0`}>
                       <img src="../../public/html.svg" className={`${smallIcon} ${largeIcon}`}/>
@@ -60,7 +62,12 @@ export default function Projects() {
             </div>
             <div className="w-[80vw] lg:w-[60vw] h-[1px] bg-sky-400 rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
-              <div className="h-36 w-64 bg-slate-300 shadow-block-md m-4"></div>
+              <div className="flex justify-center items-center">
+              <div className="flex justify-center items-center my-4">
+                <video autoPlay loop muted src="../../public/videos/cartificate-vid.mp4" width="300" height="300" className="shadow-block-md"/>
+              </div>
+                
+              </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">CARtificate</h3>
                 <p>A work in progress. A simple-to-use web app to keep track of all your car maintenance, including photos of receipts.</p>
