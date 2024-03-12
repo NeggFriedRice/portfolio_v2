@@ -55,7 +55,7 @@ export default function BeyBladeModal() {
                   {/*body*/}
                     <div className="relative p-6 flex-auto">
                       <div className="my-4 text-[clamp(22px,3vw,36px)] leading-relaxed font-light font-['Lilita_One']">
-                        <ul className="list-disc px-4 text-lg font-['Poppins']">
+                        <ul className="list-disc px-4 text-md lg:text-lg font-['Poppins']">
                             <li className="my-4">Built completely in Python, this project was a huge step for me in understanding Python Classes and OOP concepts. I had <em>a lot</em> of fun building out this game.</li>
                             <li className="my-4">Played in the terminal, you get to name yourself, name your BeyBlade, upgrade it's stats and battle against some frenemies to take home the prize.</li>
                             <p className="my-4"><em>*BeyBlades are spinning tops, there's a whole multi-season anime series based around spinning tops, yes...</em></p>
