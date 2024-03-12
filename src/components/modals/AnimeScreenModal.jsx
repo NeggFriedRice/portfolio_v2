@@ -55,10 +55,10 @@ export default function AnimeScreenModal() {
                   {/*body*/}
                     <div className="relative p-6 flex-auto">
                       <div className="my-4 leading-relaxed font-light font-['Lilita_One']">
-                        <ul className="list-disc px-4 text-sm lg:text-lg font-['Poppins']">
+                        <ul className="list-disc px-4 text-sm lg:text-xl font-['Poppins']">
                             <li className="my-4">With our group sharing a common interest dabbling in anime, we went forth and built an event scheduler centered around anime events for anime connoiseurs (<em>heh!</em>) around the world.</li>
-                            <li className="my-4">Featuring an interactive calendar view, implementation of Google's Geocode and Maps APIs, user management and customisable events/user profiles -- we think we've done quite well for a first full stack run.</li>
-                            <p className="my-4 text-[0.7rem] bg-slate-500 p-2 rounded">Note: Not all features are functional as we have been limited to using free trial services and we're too cheap to pay to keep the app running (MongoDB, AWS, Google maps APIs).</p>
+                            <li className="my-4">Featuring an interactive calendar view, implementation of Google's Geocode and Maps APIs, user management and customisable events/user profiles -- we think we've had a good crack at it for our first full stack run.</li>
+                            <p className="my-4 text-[0.7rem] lg:text-lg bg-slate-500 p-2 rounded">Note: Not all features are functional as we have been limited to using free trial services and we're too cheap to pay to keep the app running (MongoDB, AWS, Google maps APIs).</p>
                             
                             <motion.div 
                                 initial={{ opacity: 0, transform: 'scale(1.2)' }}
