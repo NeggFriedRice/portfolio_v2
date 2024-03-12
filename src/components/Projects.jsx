@@ -3,6 +3,7 @@ import Reveal from '../utils/Reveal'
 import PortfolioModal from './modals/PortfolioModal'
 import AnimeScreenModal from './modals/AnimeScreenModal'
 import CARtificateModal from './modals/CARtificateModal'
+import BeyBladeModal from './modals/BeyBladeModal'
 
 export default function Projects() {
 
@@ -91,7 +92,8 @@ export default function Projects() {
             </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[2.5rem]">BeyBlade Battle Sim</h3>
-                <p>A quick terminal-based three-round game planting you smack bang in the middle of the Beyblade Universe (<em>geeky, I know...)</em></p>
+                <p>A quick text, terminal-based three-round game planting you smack bang in the middle of the Beyblade Universe (<em>geeky, I know...)</em></p>
+                <BeyBladeModal />
                 <div className="animate-float duration-1.85s">
                   <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[100px] lg:w-[150px] transition duration-2s my-4 mx-auto lg:mx-0`}>
                       <img src="../../public/python.svg" className={`${smallIcon} ${largeIcon}`}/>
