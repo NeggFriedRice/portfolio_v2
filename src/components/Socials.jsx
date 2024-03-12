@@ -7,8 +7,8 @@ export default function Socials() {
 
 
   return (
-    <div className="flex justify-end px-4 fixed right-1">
-        <div className="fixed top-[5vh]">
+    <div className="absolute flex justify-end px-4 right-1">
+        <div className="fixed">
             <div className="py-2 hover:scale-[90%] transition-all delay-100 duration-300 hover:opacity-60">
                 <a href="https://github.com/NeggFriedRice" target="_blank">
                 <motion.svg 
@@ -45,7 +45,7 @@ export default function Socials() {
                   animate={{ x: 0, rotate: 90}}
                   exit={{ x:100, rotate: 90 }}
                   transition={{ type: 'spring', stiffness: 250, damping: 16 }}
-                  className="fixed rotate-90 right-[-55px] top-[280px] lg:right-[-155px] lg:top-[465px] lg:text-[36px] text-white font-light">
+                  className="absolute rotate-90 right-[-75px] top-[235px] lg:right-[-175px] lg:top-[420px] lg:text-[36px] text-white font-light">
                     tomloo222@gmail.com
                 </motion.p>
                 )}
