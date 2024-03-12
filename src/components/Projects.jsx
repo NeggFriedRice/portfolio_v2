@@ -1,7 +1,8 @@
 import React from 'react'
 import Reveal from '../utils/Reveal'
-import PortfolioModal from './PortfolioModal'
-import AnimeScreenModal from './AnimeScreenModal'
+import PortfolioModal from './modals/PortfolioModal'
+import AnimeScreenModal from './modals/AnimeScreenModal'
+import CARtificateModal from './modals/CARtificateModal'
 
 export default function Projects() {
 
@@ -71,6 +72,7 @@ export default function Projects() {
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">CARtificate</h3>
                 <p>A work in progress. A simple-to-use web app to keep track of all your car maintenance, including photos of receipts.</p>
+                <CARtificateModal />
                 <div className="animate-float duration-1.35s">
                   <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[300px] lg:w-[400px] transition duration-2s my-4 mx-auto lg:mx-0`}>
                       <img src="../../public/html.svg" className={`${smallIcon} ${largeIcon}`}/>

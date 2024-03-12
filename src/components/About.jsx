@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutMoreModal from './AboutMoreModal'
+import AboutMoreModal from './modals/AboutMoreModal'
 import Reveal from '../utils/Reveal'
 
 export default function About() {
