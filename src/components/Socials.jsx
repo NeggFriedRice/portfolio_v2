@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 
 export default function Socials() {
 
@@ -37,13 +37,18 @@ export default function Socials() {
               transition={{ delay: 1.7, duration: 2, type: 'spring', stiffness: 200}}
               className="py-2" onClick={() => setEmailToggle(emailToggle => !emailToggle)}>
               <img className="h-[35px] lg:h-[60px] hover:scale-[90%] transition-all delay-100 duration-300 hover:opacity-60" src="email.svg" />
-              {emailToggle ? 
-              (<motion.p
-                initial={{ x: 100, rotate: 90}}
-                animate={{ x: 0, rotate: 90}}
-                transition={{ type: 'spring', stiffness: 250, damping: 16 }}
-                className="fixed rotate-90 right-[-55px] top-[280px] lg:right-[-155px] lg:top-[465px] lg:text-[36px] text-white font-light">tomloo222@gmail.com
-              </motion.p>) : (<div></div>)}
+              <AnimatePresence>
+                {emailToggle && (
+                  <motion.p
+                  key="email"
+                  initial={{ x: 100, rotate: 90}}
+                  animate={{ x: 0, rotate: 90}}
+                  exit={{ x:100, rotate: 90 }}
+                  transition={{ type: 'spring', stiffness: 250, damping: 16 }}
+                  className="fixed rotate-90 right-[-55px] top-[280px] lg:right-[-155px] lg:top-[465px] lg:text-[36px] text-white font-light">tomloo222@gmail.com
+                </motion.p>
+                )}
+              </AnimatePresence>
             </motion.div>
         </div>
     </div>
