@@ -22,7 +22,7 @@ export default function Projects() {
             <div className="lg:w-[70vw] w-[80vw] h-[1px] bg-white rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center my-4">
-                <video autoPlay loop muted src="/public/videos/portfolio-vid.mp4" width="300" height="300" className="shadow-block-md"/>
+                <video autoPlay loop muted src="/videos/portfolio-vid.mp4" width="300" height="300" className="shadow-block-md"/>
               </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">Portfolio redesign</h3>
@@ -30,11 +30,11 @@ export default function Projects() {
                 <PortfolioModal />
                 <div className="animate-float duration-1.85s">
                   <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[300px] lg:w-[400px] transition duration-2s my-4 mx-auto lg:mx-0`}>
-                      <img src="/public/html.svg" className={`${smallIcon} ${largeIcon}`}/>
-                      <img src="/public/css.svg" className={`${smallIcon} ${largeIcon}`}/>
+                      <img src="/html.svg" className={`${smallIcon} ${largeIcon}`}/>
+                      <img src="/css.svg" className={`${smallIcon} ${largeIcon}`}/>
                       <img src="/tailwindcss.svg" className={`${smallIcon} ${largeIcon}`}/>
-                      <img src="/public/js.svg" className={`${smallIcon} ${largeIcon}`}/>
-                      <img src="/public/react.svg" className={`${smallIcon} ${largeIcon}`}/>
+                      <img src="/js.svg" className={`${smallIcon} ${largeIcon}`}/>
+                      <img src="/react.svg" className={`${smallIcon} ${largeIcon}`}/>
                   </div>
                 </div>
               </div>
@@ -42,7 +42,7 @@ export default function Projects() {
             <div className="w-[80vw] lg:w-[60vw] h-[1px] bg-sky-400 rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center my-4">
-                <video autoPlay loop muted src="/public/videos/animescreen-vid.mp4" width="300" height="300" className="shadow-block-md"/>
+                <video autoPlay loop muted src="/videos/animescreen-vid.mp4" width="300" height="300" className="shadow-block-md"/>
               </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">AnimeScreen</h3>
@@ -50,14 +50,14 @@ export default function Projects() {
                 <AnimeScreenModal />
                 <div className="animate-float duration-2s">
                   <div className={`${iconHolderStyles} flex flex-wrap justify-center bg-blue-700 hover:bg-blue-800 w-[270px] lg:w-[370px] transition duration-2s my-4 mx-auto lg:mx-0`}>
-                      <img src="/public/html.svg" className={`${smallIcon} ${largeIcon}`}/>
-                      <img src="/public/css.svg" className={`${smallIcon} ${largeIcon}`}/>
+                      <img src="/html.svg" className={`${smallIcon} ${largeIcon}`}/>
+                      <img src="/css.svg" className={`${smallIcon} ${largeIcon}`}/>
                       <img src="/tailwindcss.svg" className={`${smallIcon} ${largeIcon}`}/>
-                      <img src="/public/js.svg" className={`${smallIcon} ${largeIcon}`}/>
-                      <img src="/public/react.svg" className={`${smallIcon} ${largeIcon}`}/>
-                      <img src="/public/mongodb.svg" className={`${smallIcon} ${largeIcon}`}/>
-                      <img src="/public/express.svg" className={`${smallIcon} ${largeIcon}`}/>
-                      <img src="/public/mongoose.svg" className={`${smallIcon} ${largeIcon}`}/>
+                      <img src="/js.svg" className={`${smallIcon} ${largeIcon}`}/>
+                      <img src="/react.svg" className={`${smallIcon} ${largeIcon}`}/>
+                      <img src="/mongodb.svg" className={`${smallIcon} ${largeIcon}`}/>
+                      <img src="/express.svg" className={`${smallIcon} ${largeIcon}`}/>
+                      <img src="/mongoose.svg" className={`${smallIcon} ${largeIcon}`}/>
                   </div>
                 </div>
               </div>
@@ -66,7 +66,7 @@ export default function Projects() {
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center">
               <div className="flex justify-center items-center my-4">
-                <video autoPlay loop muted src="/public/videos/cartificate-vid.mp4" width="300" height="300" className="shadow-block-md"/>
+                <video autoPlay loop muted src="/videos/cartificate-vid.mp4" width="300" height="300" className="shadow-block-md"/>
               </div>
                 
               </div>
@@ -76,11 +76,11 @@ export default function Projects() {
                 <CARtificateModal />
                 <div className="animate-float duration-1.35s">
                   <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[300px] lg:w-[400px] transition duration-2s my-4 mx-auto lg:mx-0`}>
-                      <img src="/public/html.svg" className={`${smallIcon} ${largeIcon}`}/>
-                      <img src="/public/css.svg" className={`${smallIcon} ${largeIcon}`}/>
+                      <img src="/html.svg" className={`${smallIcon} ${largeIcon}`}/>
+                      <img src="/css.svg" className={`${smallIcon} ${largeIcon}`}/>
                       <img src="/tailwindcss.svg" className={`${smallIcon} ${largeIcon}`}/>
-                      <img src="/public/js.svg" className={`${smallIcon} ${largeIcon}`}/>
-                      <img src="/public/react.svg" className={`${smallIcon} ${largeIcon}`}/>
+                      <img src="/js.svg" className={`${smallIcon} ${largeIcon}`}/>
+                      <img src="/react.svg" className={`${smallIcon} ${largeIcon}`}/>
                   </div>
                 </div>
               </div>
@@ -88,7 +88,7 @@ export default function Projects() {
             <div className="w-[80vw] lg:w-[60vw] h-[1px] bg-sky-400 rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
             <div className="flex justify-center items-center my-4">
-              <video autoPlay loop muted src="/public/videos/beyblade-vid2.mp4" width="400" height="300" className="shadow-block-md border-r-1 border-b-1 border-slate-600"/>
+              <video autoPlay loop muted src="/videos/beyblade-vid2.mp4" width="400" height="300" className="shadow-block-md border-r-1 border-b-1 border-slate-600"/>
             </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[2.5rem]">BeyBlade Battle Sim</h3>
@@ -96,7 +96,7 @@ export default function Projects() {
                 <BeyBladeModal />
                 <div className="animate-float duration-1.85s">
                   <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[100px] lg:w-[150px] transition duration-2s my-4 mx-auto lg:mx-0`}>
-                      <img src="/public/python.svg" className={`${smallIcon} ${largeIcon}`}/>
+                      <img src="/python.svg" className={`${smallIcon} ${largeIcon}`}/>
                   </div>
                 </div>
               </div>
