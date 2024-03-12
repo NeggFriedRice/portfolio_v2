@@ -55,7 +55,7 @@ export default function AnimeScreenModal() {
                   {/*body*/}
                     <div className="relative p-6 flex-auto">
                       <div className="my-4 leading-relaxed font-light font-['Lilita_One']">
-                        <ul className="list-disc px-4 text-[16px] lg:text-xl font-['Poppins']">
+                        <ul className="list-disc px-4 text-[15px] lg:text-xl font-['Poppins']">
                             <li className="my-4">With our group sharing a common interest dabbling in anime, we went forth and built an event scheduler centered around anime events for anime connoiseurs (<em>heh!</em>) around the world.</li>
                             <li className="my-4">Featuring an interactive calendar view, implementation of Google's Geocode and Maps APIs, user management and customisable events/user profiles -- we think we've had a good crack at it for our first full stack run.</li>
                             <p className="my-4 text-[0.7rem] lg:text-lg bg-slate-500 p-2 rounded">Note: Not all features are functional as we have been limited to using free trial services and we're too cheap to pay to keep the app running (MongoDB, AWS, Google maps APIs).</p>
@@ -69,7 +69,7 @@ export default function AnimeScreenModal() {
                                     <div className="flex sm:flex-wrap py-2 transition-all delay-100 duration-300 items-center hover:opacity-[60%] mx-4">
                                     <span className="material-symbols-outlined lg:text-[32px] text-[26px]">rocket_launch</span>
                                         <a href="https://animescreen.vercel.app/" target="_blank">
-                                        <p className="mx-2 text-[12px] md:text-[1rem]">View project</p>
+                                        <p className="mx-2 text-[14px] md:text-[1rem]">View project</p>
                                         </a>
                                     </div>
                                     <div className="flex sm:flex-wrap py-2 transition-all delay-100 duration-300 items-center hover:opacity-[60%] mx-4">
