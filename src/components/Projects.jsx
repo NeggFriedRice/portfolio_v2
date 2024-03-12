@@ -19,7 +19,7 @@ export default function Projects() {
               <div className="inline text-[clamp(26px,10vw,48px)]">Projects</div>
             </Reveal>
             
-            <div className="xl:w-[60vw] lg:w-[70vw] w-[80vw] h-[1px] bg-white rounded-sm"></div>
+            <div className="xl:w-[55vw] lg:w-[70vw] w-[80vw] h-[1px] bg-white rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center my-4">
                 <video autoPlay loop muted src="/videos/portfolio-vid.mp4" width="300" height="300" className="shadow-block-md"/>
@@ -42,7 +42,7 @@ export default function Projects() {
             <div className="w-[80vw] lg:w-[60vw] h-[1px] bg-sky-400 rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center my-4">
-                <video autoPlay loop muted src="/videos/animescreen-vid.mp4" width="300" height="300" className="shadow-block-md"/>
+                <video autoPlay loop muted src="/videos/animescreen-vid.mp4" className="shadow-block-md h-[300px] w-[300px]"/>
               </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">AnimeScreen</h3>
