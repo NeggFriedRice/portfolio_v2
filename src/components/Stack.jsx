@@ -7,10 +7,10 @@ export default function Stack() {
 
   return (
     <>
-    <div id="about" className="gradient-background font-light flex justify-center px-6 bg-indigo-600 text-white text-[clamp(16px,2vw,36px)] py-[4vh]"> 
+    <div id="about" className="font-light flex justify-center px-6 text-white text-[clamp(16px,2vw,36px)] py-[4vh]"> 
 
       <div className="lg:w-70vw]">
-          <div className="w-[80vw] lg:w-[70vw] h-[1px] bg-indigo-500 rounded-sm"></div>
+          <div className="w-[80vw] lg:w-[60vw] h-[1px] bg-indigo-500 rounded-sm"></div>
 
           <div className="flex py-6 justify-center">
             
