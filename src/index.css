@@ -27,11 +27,20 @@
   }
 }
 
-/* body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-} */
+.gradient-background {
+  background: linear-gradient(300deg,#141f97,#5f2dc4,#821dc0,#3a28d8);
+  background-size: 240% 240%;
+  animation: gradient-animation 15s ease infinite;
+}
 
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
