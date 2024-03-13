@@ -16,7 +16,7 @@ export default function Bio() {
                   </div>
             </div>
         </div>  */}
-        <div id="home" className="flex flex-wrap justify-center h-[100vh] items-center bg-cyan-600 rounded-br-[15vh] lg:rounded-br-[30vh]">
+        <div id="home" className="flex flex-wrap justify-center h-[100vh] items-center bg-cyan-600 rounded-br-[20vh] lg:rounded-br-[30vh]">
           <div>
           
             <div className="">
