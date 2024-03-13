@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <StickyBox offsetTop={60} offsetBottom={60}>
         <Socials />
       </StickyBox>

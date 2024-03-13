@@ -12,7 +12,7 @@ export default function Projects() {
   const largeIcon = "lg:h-14 lg:w-14 lg:m-2 hover:scale-110 transition-all delay-75"
 
   return (
-    <div>
+    <div id="projects">
         <div className="font-light flex justify-center px-6 bg-sky-600 text-white text-[clamp(16px,2vw,36px)] py-[5vh]">
           <div className="xl:w-[55vw] lg:w-[70vw] mx-8">
             <Reveal direction={"right"}>
