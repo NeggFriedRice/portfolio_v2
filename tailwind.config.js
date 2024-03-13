@@ -72,6 +72,7 @@ export default {
     },
   },
   screens: {
+    'xs': '361px',
     'sm': '420px',
   },
   plugins: [
