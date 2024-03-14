@@ -48,7 +48,7 @@ export default function Projects() {
                 <p className="text-[1.5rem]">Full stack event scheduler app aimed squarely at the anime crowd; group project built with two other Coder Academy classmates.</p>
                 <AnimeScreenModal />
                 <div className="animate-float duration-2s">
-                  <div className={`${iconHolderStyles} flex flex-wrap justify-center bg-blue-700 hover:bg-blue-800 w-[270px] lg:w-[370px] transition duration-2s my-4 mx-auto lg:mx-0`}>
+                  <div className={`${iconHolderStyles} flex flex-wrap justify-center bg-blue-700 hover:bg-blue-800 w-[210px] lg:w-[280px] transition duration-2s my-4 mx-auto lg:mx-0`}>
                       <img src="/html.svg" className={`${smallIcon} ${largeIcon}`}/>
                       <img src="/css.svg" className={`${smallIcon} ${largeIcon}`}/>
                       <img src="/tailwindcss.svg" className={`${smallIcon} ${largeIcon}`}/>
