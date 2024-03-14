@@ -19,7 +19,7 @@ export default function Contact() {
               <br/><br/>
               Looking forward to hearing from you!
               <br/><br/>
-              Warmest regards,
+              Yours sincerely,
               <br/>
               Tom</p> 
       </div>
