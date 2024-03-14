@@ -57,6 +57,7 @@ export default function Projects() {
                       <img src="/react.svg" className={`${smallIcon} ${largeIcon}`}/>
                       <img src="/mongodb.svg" className={`${smallIcon} ${largeIcon}`}/>
                       <img src="/express.svg" className={`${smallIcon} ${largeIcon}`}/>
+                      <img src="/nodejs.svg" className={`${smallIcon} ${largeIcon}`}/>
                       <img src="/mongoose.svg" className={`${smallIcon} ${largeIcon}`}/>
                   </div>
                 </div>
