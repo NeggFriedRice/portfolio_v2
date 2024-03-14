@@ -5,7 +5,6 @@ export default function Socials() {
 
   const [emailToggle, setEmailToggle] = useState(false)
 
-
   return (
     <div className="absolute flex justify-end px-2 right-1">
         <div className="fixed">

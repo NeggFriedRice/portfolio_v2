@@ -7,7 +7,6 @@ export default function AboutMoreModal() {
     const [showModal, setShowModal] = useState(false);
   return (
     <>
-    
       <button
         className="bg-orange-500 text-white active:bg-orange-600 hover:bg-orange-400 font-bold uppercase text-sm my-5 px-6 py-3 rounded-[12px] shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all lg:text-[1.5rem] lg:rounded-[12px] flex"
         type="button"
@@ -18,7 +17,6 @@ export default function AboutMoreModal() {
           <span className="relative inline-flex  h-5 w-5 bg-blue-500 hover:bg-green-500 hover:rotate-360 transition-all duration-500"></span>
         </span>
         More info please...
-
       </button>
           <AnimatePresence>
             {showModal && (

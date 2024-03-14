@@ -18,7 +18,6 @@ export default function Projects() {
             <Reveal direction={"right"}>
               <div className="inline text-[clamp(26px,10vw,48px)]">Projects</div>
             </Reveal>
-            
             <div className="xl:w-[55vw] lg:w-[70vw] w-[80vw] h-[1px] bg-white rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center my-4">
@@ -66,10 +65,9 @@ export default function Projects() {
             <div className="w-[80vw] lg:w-[60vw] h-[1px] bg-sky-400 rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center">
-              <div className="flex justify-center items-center my-4">
-                <video autoPlay loop muted src="/videos/cartificate-vid.mp4" width="300" height="300" className="shadow-block-md"/>
-              </div>
-                
+                <div className="flex justify-center items-center my-4">
+                  <video autoPlay loop muted src="/videos/cartificate-vid.mp4" width="300" height="300" className="shadow-block-md"/>
+                </div>
               </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">CARtificate</h3>
@@ -88,19 +86,19 @@ export default function Projects() {
             </div>
             <div className="w-[80vw] lg:w-[60vw] h-[1px] bg-sky-400 rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
-            <div className="flex justify-center items-center my-4">
-              <video autoPlay loop muted src="/videos/beyblade-vid2.mp4" width="400" height="300" className="shadow-block-md border-r-1 border-b-1 border-slate-600"/>
-            </div>
-              <div className="m-2 lg:m-8">
-                <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[2.5rem]">BeyBlade Battle Sim</h3>
-                <p className="text-[1.5rem]">A quick text, terminal-based three-round game planting you smack bang in the middle of the Beyblade Universe (<em>geeky, I know...)</em></p>
-                <BeyBladeModal />
-                <div className="animate-float duration-1.85s">
-                  <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[100px] lg:w-[150px] transition duration-2s my-4 mx-auto lg:mx-0`}>
-                      <img src="/python.svg" className={`${smallIcon} ${largeIcon}`}/>
+              <div className="flex justify-center items-center my-4">
+                <video autoPlay loop muted src="/videos/beyblade-vid2.mp4" width="400" height="300" className="shadow-block-md border-r-1 border-b-1 border-slate-600"/>
+              </div>
+                <div className="m-2 lg:m-8">
+                  <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[2.5rem]">BeyBlade Battle Sim</h3>
+                  <p className="text-[1.5rem]">A quick text, terminal-based three-round game planting you smack bang in the middle of the Beyblade Universe (<em>geeky, I know...)</em></p>
+                  <BeyBladeModal />
+                  <div className="animate-float duration-1.85s">
+                    <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[100px] lg:w-[150px] transition duration-2s my-4 mx-auto lg:mx-0`}>
+                        <img src="/python.svg" className={`${smallIcon} ${largeIcon}`}/>
+                    </div>
                   </div>
                 </div>
-              </div>
             </div>
           </div>
         </div>
