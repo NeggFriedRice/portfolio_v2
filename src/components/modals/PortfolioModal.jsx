@@ -53,7 +53,7 @@ export default function PortfolioModal() {
                     </button>
                   </div>
                   {/*body*/}
-                    <div className="relative p-6 flex-auto">
+                  <div className="relative px-4 flex-auto">
                       <div className="my-4 text-[clamp(22px,3vw,36px)] leading-relaxed font-light font-['Lilita_One']">
                         <ul className="list-disc px-4 text-lg lg:text-xl font-['Poppins']">
                             <li className="my-4">As someone fairly new to the world of web development I've always wondered how things were built. Now that I've got some inkling of what it takes, <em>weeeewww</em>, it's been a bit of a wild ride and I'm only just getting started.</li>

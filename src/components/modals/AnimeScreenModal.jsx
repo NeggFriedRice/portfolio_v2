@@ -53,7 +53,7 @@ export default function AnimeScreenModal() {
                     </button>
                   </div>
                   {/*body*/}
-                    <div className="relative p-6 flex-auto">
+                    <div className="relative px-4 flex-auto">
                       <div className="my-4 leading-relaxed font-light font-['Lilita_One']">
                         <ul className="list-disc px-4 text-[15px] lg:text-xl font-['Poppins']">
                             <li className="my-4">With our group sharing a common interest dabbling in anime, we went forth and built an event scheduler centered around anime events for anime connoiseurs (<em>heh!</em>) around the world.</li>

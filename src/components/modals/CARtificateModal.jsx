@@ -53,7 +53,7 @@ export default function CARtificateModal() {
                     </button>
                   </div>
                   {/*body*/}
-                    <div className="relative p-6 flex-auto">
+                  <div className="relative px-4 flex-auto">
                       <div className="my-4 text-[clamp(22px,3vw,36px)] leading-relaxed font-light font-['Lilita_One']">
                         <ul className="list-disc px-4 text-sm lg:text-xl font-['Poppins']">
                             <li className="my-4">I had the pleasure of having to sell an ageing, niche convertible sports car with a virtually-stored pile of maintenance work over the years that was lost to a similarly ageing PC that no longer wished to run.</li>

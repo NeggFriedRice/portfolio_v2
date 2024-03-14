@@ -53,7 +53,7 @@ export default function AboutMoreModal() {
                     </button>
                   </div>
                   {/*body*/}
-                    <div className="relative p-6 flex-auto">
+                  <div className="relative px-4 flex-auto">
                       <div className="my-4 text-[clamp(22px,3vw,36px)] leading-relaxed font-light font-['Lilita_One']">
                         Things I did before software development:
                         <ul className="list-disc px-4 text-lg lg:text-xl font-['Poppins']">

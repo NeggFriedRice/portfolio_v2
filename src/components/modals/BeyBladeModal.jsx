@@ -53,7 +53,7 @@ export default function BeyBladeModal() {
                     </button>
                   </div>
                   {/*body*/}
-                    <div className="relative p-6 flex-auto">
+                  <div className="relative px-4 flex-auto">
                       <div className="my-4 text-[clamp(22px,3vw,36px)] leading-relaxed font-light font-['Lilita_One']">
                         <ul className="list-disc px-4 text-base lg:text-xl font-['Poppins']">
                             <li className="my-4">Built completely in Python, this project was a huge step for me in understanding Python Classes and OOP concepts. I had <em>a lot</em> of fun building out this game.</li>
