@@ -7,7 +7,8 @@ import About from './components/About'
 import Projects from './components/Projects'
 import StickyBox from "react-sticky-box"
 import Socials from './components/Socials'
-
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -21,6 +22,8 @@ function App() {
       <Stack />
       <About />
       <Projects />
+      <Contact />
+      <Footer />
     </>
   )
 }

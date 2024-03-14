@@ -19,8 +19,8 @@ export default {
           '50%': {transform: 'rotate(15deg)'},
         },
         breathe: {
-          '0%, 100%': {transform: 'scale(1)'},
-          '50%': {transform: 'scale(1.05)'}
+          '0%, 100%': {transform: 'scale(100%)'},
+          '50%': {transform: 'scale(105%)'}
         },
         float: {
           '0%' : { transform: 'translateY(0px)'},
