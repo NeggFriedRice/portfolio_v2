@@ -36,6 +36,7 @@ export default function Socials() {
               transition={{ delay: 1.7, duration: 2, type: 'spring', stiffness: 200}}
               className="py-2" onClick={() => setEmailToggle(emailToggle => !emailToggle)}>
               <img className="h-[35px] lg:h-[60px] hover:scale-[90%] transition-all delay-100 duration-300 hover:opacity-60" src="email.svg" />
+              </motion.div>
               <AnimatePresence>
                 {emailToggle && (
                   <motion.p
@@ -49,7 +50,7 @@ export default function Socials() {
                 </motion.p>
                 )}
               </AnimatePresence>
-            </motion.div>
+            
         </div>
     </div>
   )
