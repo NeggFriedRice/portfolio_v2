@@ -25,7 +25,7 @@ export default function Projects() {
               </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">Portfolio redesign</h3>
-                <p className="text-[1.5rem]">Something to keep me busy and an avenue to explore the bits and bobs I've learned from watching a long list of YouTube tutorials.</p>
+                <p className="text-[1.5rem] max-xs:text-[1rem]">Something to keep me busy and an avenue to explore the bits and bobs I've learned from watching a long list of YouTube tutorials.</p>
                 <PortfolioModal />
                 <div className="animate-float duration-1.85s">
                   <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[300px] lg:w-[400px] transition duration-2s my-4 mx-auto lg:mx-0`}>
@@ -45,7 +45,7 @@ export default function Projects() {
               </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">AnimeScreen</h3>
-                <p className="text-[1.5rem]">Full stack event scheduler app aimed squarely at the anime crowd; group project built with two other Coder Academy classmates.</p>
+                <p className="text-[1.5rem] max-xs:text-[1rem]">Full stack event scheduler app aimed squarely at the anime crowd; group project built with two other Coder Academy classmates.</p>
                 <AnimeScreenModal />
                 <div className="animate-float duration-2s">
                   <div className={`${iconHolderStyles} flex flex-wrap justify-center bg-blue-700 hover:bg-blue-800 w-[210px] lg:w-[280px] transition duration-2s my-4 mx-auto lg:mx-0`}>
@@ -71,7 +71,7 @@ export default function Projects() {
               </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">CARtificate</h3>
-                <p className="text-[1.5rem]">A work in progress. A simple-to-use web app to keep track of all your car maintenance.</p>
+                <p className="text-[1.5rem] max-xs:text-[1rem]">A work in progress. A simple-to-use web app to keep track of all your car maintenance.</p>
                 <CARtificateModal />
                 <div className="animate-float duration-1.35s">
                   <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[300px] lg:w-[400px] transition duration-2s my-4 mx-auto lg:mx-0`}>
@@ -91,7 +91,7 @@ export default function Projects() {
               </div>
                 <div className="m-2 lg:m-8">
                   <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[2.5rem]">BeyBlade Battle Sim</h3>
-                  <p className="text-[1.5rem]">A quick text, terminal-based three-round game planting you smack bang in the middle of the Beyblade Universe (<em>geeky, I know...)</em></p>
+                  <p className="text-[1.5rem] max-xs:text-[1rem]">A quick text, terminal-based three-round game planting you smack bang in the middle of the Beyblade Universe (<em>geeky, I know...)</em></p>
                   <BeyBladeModal />
                   <div className="animate-float duration-1.85s">
                     <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[100px] lg:w-[150px] transition duration-2s my-4 mx-auto lg:mx-0`}>

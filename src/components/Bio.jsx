@@ -9,7 +9,7 @@ export default function Bio() {
           <div>
             <div className="">
             <Reveal direction={"left"}>
-              <h1 className="text-[48px] font-['Poppins'] mx-12 text-white overflow-hidden">
+              <h1 className="text-[48px] font-['Poppins'] mx-12 text-white overflow-hidden max-xs:text-[36px]">
                 Thomas Loo
               </h1>
             </Reveal>
@@ -17,13 +17,13 @@ export default function Bio() {
               initial={{ x: 80, opacity: 0}}
               animate={{ x: 0, opacity: 1}}
               transition={{ duration: 1.5, delay: 0.75, type: "spring", stiffness: 80 }}>
-              <h1 className="text-[26px] font-['Poppins'] rotate-90 relative top-[70px] right-[-132px] text-white whitespace-break-spaces">Juni     r Full Stack Developer</h1>
+              <h1 className="text-[26px] font-['Poppins'] rotate-90 relative top-[70px] right-[-132px] text-white whitespace-break-spaces max-xs:right-[-100px] max-xs:text-[20px] max-xs:top-[64px]">Juni     r Full Stack Developer</h1>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.5, delay: 0.75, type: "spring", stiffness: 80 }}>
-              <img src="profile_pic3.png" className="relative top-[-20px] right-[10px] shadow-block-md hover:scale-105 hover:rounded-lg transition-all ease-in-out delay-100 duration-300 aspect-square overflow-hidden "/>
+              <img src="profile_pic3.png" className="relative top-[-20px] right-[10px] shadow-block-md hover:scale-105 hover:rounded-lg transition-all ease-in-out delay-100 duration-300 aspect-square overflow-hidden max-xs:h-[200px] max-xs:right-[-30px]"/>
             </motion.div>
             </div>
           </div>

@@ -5,6 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'xs': '431px',
+      'lg': '1025px',
+      'xxl': '2000px'
+    },
+
     extend: {
       boxShadow: {
         'block-xs': '0.25rem 0.25rem black',
@@ -70,11 +76,9 @@ export default {
         '1': '1px'
       }
     },
+
   },
-  screens: {
-    'xs': '361px',
-    'sm': '420px',
-  },
+
   plugins: [
     require('@tailwindcss/aspect-ratio'),
     require("tailwindcss-animate"),
