@@ -14,11 +14,11 @@ export default function Projects() {
   return (
     <div id="projects">
         <div className="font-light flex justify-center px-6 bg-sky-600 text-white text-[clamp(16px,2vw,36px)] py-[5vh]">
-          <div className="xl:w-[55vw] lg:w-[70vw] mx-8 xxl:w-[40vw]">
+          <div className="xl:w-[55vw] lg:w-[70vw] mx-8 xxl:w-[50vw]">
             <Reveal direction={"right"}>
               <div className="inline text-[clamp(26px,10vw,48px)]">Projects</div>
             </Reveal>
-            <div className="xl:w-[55vw] xxl:w-[40vw] lg:w-[70vw] w-[80vw] h-[1px] bg-white rounded-sm"></div>
+            <div className="xl:w-[55vw] xxl:w-[50vw] lg:w-[70vw] w-[80vw] h-[1px] bg-white rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center my-4">
                 <video autoPlay loop muted src="/videos/portfolio-vid.mp4" width="300" height="300" className="shadow-block-md"/>
@@ -38,7 +38,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-            <div className="w-[80vw] lg:w-[60vw] xxl:w-[35vw] h-[1px] bg-sky-400 rounded-sm"></div>
+            <div className="w-[80vw] lg:w-[60vw] xxl:w-[50vw] h-[1px] bg-sky-400 rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center my-4">
                 <video autoPlay loop muted src="/videos/animescreen-vid.mp4" className="shadow-block-md h-[300px] w-[300px]"/>
@@ -62,7 +62,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-            <div className="w-[80vw] lg:w-[60vw] xxl:w-[35vw] h-[1px] bg-sky-400 rounded-sm"></div>
+            <div className="w-[80vw] lg:w-[60vw] xxl:w-[50vw] h-[1px] bg-sky-400 rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center">
                 <div className="flex justify-center items-center my-4">
@@ -84,7 +84,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-            <div className="w-[80vw] lg:w-[60vw] h-[1px] xxl:w-[35vw] bg-sky-400 rounded-sm"></div>
+            <div className="w-[80vw] lg:w-[60vw] h-[1px] xxl:w-[50vw] bg-sky-400 rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center my-4">
                 <video autoPlay loop muted src="/videos/beyblade-vid2.mp4" width="400" height="300" className="shadow-block-md border-r-1 border-b-1 border-slate-600"/>
