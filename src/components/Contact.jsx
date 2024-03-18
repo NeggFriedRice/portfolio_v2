@@ -11,7 +11,7 @@ export default function Contact() {
       <div className="w-[80vw] lg:w-[40vw] flex flex-wrap justify-center xxl:w-[30vw]">
       <div className="flex justify-items-end justify-end px-16 ">
                 <Reveal direction={"left"}>
-                    <div className="inline text-[[clamp(20px,20vw,36px)]] max-xs:text-[1.5rem]">A final note</div>
+                    <div className="inline text-[clamp(26px,10vw,48px)] max-xs:text-[1.5rem]">A final note</div>
                 </Reveal>
                 </div>
           <div className="w-[80vw] lg:w-[60vw] h-[1px] bg-white rounded-sm"></div>
