@@ -66,7 +66,7 @@ export default function Projects() {
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center">
                 <div className="flex justify-center items-center my-4">
-                  <video autoPlay loop muted src="/videos/cartificate-vid.mp4" width="300" height="300" className="shadow-block-md"/>
+                  <video autoPlay loop muted src="/videos/cartificate-vid2.mp4" width="300" height="300" className="shadow-block-md"/>
                 </div>
               </div>
               <div className="m-2 lg:m-8">
