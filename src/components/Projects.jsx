@@ -22,8 +22,8 @@ export default function Projects() {
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center">
                 <div className="flex justify-center items-center my-4 ">
-                  <a href="https://cartificate-frontend.vercel.app/" target="_blank">
-                    <video autoPlay loop muted src="/videos/cartificate-vid2.mp4" width="300" height="300" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all duration-300"/>
+                  <a href="https://cartificate.vercel.app/" target="_blank">
+                    <video autoPlay loop muted src="/videos/cartificate-vid2.mp4" width="300" height="300" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all duration-300 delay-100"/>
                   </a>
                 </div>
               </div>
@@ -50,7 +50,7 @@ export default function Projects() {
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center my-4">
                 <a href="https://www.thomasloo.dev/" target="_blank">
-                <video autoPlay loop muted src="/videos/portfolio-vid.mp4" width="300" height="300" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all duration-300"/>
+                <video autoPlay loop muted src="/videos/portfolio-vid.mp4" width="300" height="300" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all duration-300  delay-100"/>
                 </a>
               </div>
               <div className="m-2 lg:m-8">
@@ -72,7 +72,7 @@ export default function Projects() {
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center my-4">
                 <a href="https://animescreen.vercel.app/" target="_blank">
-                  <video autoPlay loop muted src="/videos/animescreen-vid.mp4" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all duration-300 h-[300px] w-[300px]"/>
+                  <video autoPlay loop muted src="/videos/animescreen-vid.mp4" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all duration-300  delay-100 h-[300px] w-[300px]"/>
                 </a>
               </div>
               <div className="m-2 lg:m-8">
@@ -98,7 +98,7 @@ export default function Projects() {
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center my-4">
                 <a href="https://github.com/NeggFriedRice/terminal_app" target="_blank">
-                 <video autoPlay loop muted src="/videos/beyblade-vid2.mp4" width="400" height="300" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all duration-300 border-r-1 border-b-1 border-slate-600"/>
+                 <video autoPlay loop muted src="/videos/beyblade-vid2.mp4" width="400" height="300" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all duration-300 delay-100 border-r-1 border-b-1 border-slate-600"/>
                  </a>
               </div>
                 <div className="m-2 lg:m-8">
