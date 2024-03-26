@@ -26,18 +26,18 @@ export default function Reveal({children, direction}) {
             }}
             initial="hidden"
             animate={mainControls}
-            transition={{ duration: 0.5, delay: 0.35 }}
+            transition={{ duration: 0.5, delay: 0.45 }}
             >
             {children}
             </motion.div>
             <motion.div
                 variants={{
                     hidden: { [direction]: 0 },
-                    visible: { [direction]: "100%" },
+                    visible: { [direction]: "100%"},
                 }}
                 initial="hidden"
                 animate={slideControls}
-                transition={{duration: 0.5, ease: "easeIn" }}
+                transition={{ delay: 0.15, duration: 0.5, ease: "easeIn" }}
                 style={{
                     position: "absolute",
                     top: 4,
