@@ -48,7 +48,7 @@ export default function CARtificateModal() {
                   <div className="relative px-4 flex-auto">
                       <div className="my-4 text-[clamp(22px,3vw,36px)] leading-relaxed font-light font-['Lilita_One']">
                         <ul className="list-disc px-4 text-sm lg:text-xl font-['Poppins']">
-                            <li className="my-4">I had the pleasure of having to sell an ageing, niche convertible sports car with a virtually-stored pile of maintenance work over the years that was lost to a similarly ageing PC that no longer wished to run.</li>
+                            <li className="my-4">I had the pleasure of having to sell an ageing, niche convertible sports car with a virtually-stored pile of maintenance work over the years that was lost to a similarly ageing PC that no longer wished to run. Now I no longer need to worry about losing track of my records thanks to good ol' MongoDB.</li>
                             <li className="my-4">This web app was built for fun and as practice for myself. Something with a practical usecase and hopefully I can add image upload functionality at some point.</li>
                             <div className="py-2 transition-all delay-100 duration-300 ">
                             <motion.div 
