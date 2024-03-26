@@ -30,13 +30,17 @@ export default function Projects() {
                 <p className="text-[1.5rem] max-xs:text-[1rem]">A fully-responsive full-stack simple-to-use web app to keep track of all your car maintenance.</p>
                 <CARtificateModal />
                 <div className="animate-float duration-1.35s">
-                  <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[300px] lg:w-[400px] transition duration-2s my-4 mx-auto lg:mx-0`}>
-                      <img src="/html.svg" className={`${smallIcon} ${largeIcon}`}/>
-                      <img src="/css.svg" className={`${smallIcon} ${largeIcon}`}/>
-                      <img src="/tailwindcss.svg" className={`${smallIcon} ${largeIcon}`}/>
-                      <img src="/js.svg" className={`${smallIcon} ${largeIcon}`}/>
-                      <img src="/react.svg" className={`${smallIcon} ${largeIcon}`}/>
-                  </div>
+                  <div className={`${iconHolderStyles} flex flex-wrap justify-center bg-blue-700 hover:bg-blue-800 w-[210px] lg:w-[280px] transition duration-2s my-4 mx-auto lg:mx-0`}>
+                        <img src="/html.svg" className={`${smallIcon} ${largeIcon}`}/>
+                        <img src="/css.svg" className={`${smallIcon} ${largeIcon}`}/>
+                        <img src="/tailwindcss.svg" className={`${smallIcon} ${largeIcon}`}/>
+                        <img src="/js.svg" className={`${smallIcon} ${largeIcon}`}/>
+                        <img src="/react.svg" className={`${smallIcon} ${largeIcon}`}/>
+                        <img src="/mongodb.svg" className={`${smallIcon} ${largeIcon}`}/>
+                        <img src="/express.svg" className={`${smallIcon} ${largeIcon}`}/>
+                        <img src="/nodejs.svg" className={`${smallIcon} ${largeIcon}`}/>
+                        <img src="/mongoose.svg" className={`${smallIcon} ${largeIcon}`}/>
+                    </div>
                 </div>
               </div>
             </div>
