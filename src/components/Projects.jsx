@@ -27,7 +27,7 @@ export default function Projects() {
               </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">CARtificate</h3>
-                <p className="text-[1.5rem] max-xs:text-[1rem]">A fully-responsive simple-to-use web app to keep track of all your car maintenance.</p>
+                <p className="text-[1.5rem] max-xs:text-[1rem]">A fully-responsive full-stack simple-to-use web app to keep track of all your car maintenance.</p>
                 <CARtificateModal />
                 <div className="animate-float duration-1.35s">
                   <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[300px] lg:w-[400px] transition duration-2s my-4 mx-auto lg:mx-0`}>
