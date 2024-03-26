@@ -21,8 +21,10 @@ export default function Projects() {
             <div className="xl:w-[55vw] xxl:w-[50vw] lg:w-[70vw] w-[80vw] h-[1px] bg-white rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center">
-                <div className="flex justify-center items-center my-4">
-                  <video autoPlay loop muted src="/videos/cartificate-vid2.mp4" width="300" height="300" className="shadow-block-md"/>
+                <div className="flex justify-center items-center my-4 ">
+                  <a href="https://cartificate-frontend.vercel.app/" target="_blank">
+                    <video autoPlay loop muted src="/videos/cartificate-vid2.mp4" width="300" height="300" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all duration-300"/>
+                  </a>
                 </div>
               </div>
               <div className="m-2 lg:m-8">
@@ -47,7 +49,9 @@ export default function Projects() {
             <div className="w-[80vw] lg:w-[60vw] xxl:w-[50vw] h-[1px] bg-sky-400 rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center my-4">
-                <video autoPlay loop muted src="/videos/portfolio-vid.mp4" width="300" height="300" className="shadow-block-md"/>
+                <a href="https://www.thomasloo.dev/" target="_blank">
+                <video autoPlay loop muted src="/videos/portfolio-vid.mp4" width="300" height="300" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all duration-300"/>
+                </a>
               </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">Portfolio redesign</h3>
@@ -67,7 +71,9 @@ export default function Projects() {
             <div className="w-[80vw] lg:w-[60vw] xxl:w-[50vw] h-[1px] bg-sky-400 rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center my-4">
-                <video autoPlay loop muted src="/videos/animescreen-vid.mp4" className="shadow-block-md h-[300px] w-[300px]"/>
+                <a href="https://animescreen.vercel.app/" target="_blank">
+                  <video autoPlay loop muted src="/videos/animescreen-vid.mp4" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all duration-300 h-[300px] w-[300px]"/>
+                </a>
               </div>
               <div className="m-2 lg:m-8">
                 <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">AnimeScreen</h3>
@@ -91,7 +97,9 @@ export default function Projects() {
             <div className="w-[80vw] lg:w-[60vw] h-[1px] xxl:w-[50vw] bg-sky-400 rounded-sm"></div>
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center my-4">
-                <video autoPlay loop muted src="/videos/beyblade-vid2.mp4" width="400" height="300" className="shadow-block-md border-r-1 border-b-1 border-slate-600"/>
+                <a href="https://github.com/NeggFriedRice/terminal_app" target="_blank">
+                 <video autoPlay loop muted src="/videos/beyblade-vid2.mp4" width="400" height="300" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all duration-300 border-r-1 border-b-1 border-slate-600"/>
+                 </a>
               </div>
                 <div className="m-2 lg:m-8">
                   <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[2.5rem]">BeyBlade Battle Sim</h3>

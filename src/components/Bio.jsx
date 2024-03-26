@@ -23,7 +23,7 @@ export default function Bio() {
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.5, delay: 0.75, type: "spring", stiffness: 80 }}>
-              <img src="profile_pic3.png" className="relative top-[-20px] right-[10px] shadow-block-md hover:scale-105 hover:rounded-lg transition-all ease-in-out delay-100 duration-300 aspect-square overflow-hidden max-xs:h-[200px] max-xs:right-[-30px]"/>
+              <img src="profile_pic3.png" className="relative top-[-20px] right-[10px] shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all ease-in-out delay-100 duration-300 aspect-square overflow-hidden max-xs:h-[200px] max-xs:right-[-20px]"/>
             </motion.div>
             </div>
           </div>
