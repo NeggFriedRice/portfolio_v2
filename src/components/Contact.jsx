@@ -15,7 +15,7 @@ export default function Contact() {
                 </Reveal>
                 </div>
           <div className="w-[80vw] lg:w-[60vw] h-[1px] bg-white rounded-sm"></div>
-              <p className="font-['Poppins'] justify-self-center py-6 text-[1.8rem] max-xs:text-[1rem]">I am currently in the market for an exciting role and a place to grow, so if you're interested in having a chat please click the ✉️ icon in the top right hand corner of your screen and send over a message!
+              <p className="font-['Poppins'] justify-self-center py-6 text-[1.5rem] max-xs:text-[1rem]">I am currently in the market for an exciting role and a place to grow, so if you're interested in having a chat please click the ✉️ icon in the top right hand corner of your screen and send over a message!
               <br/><br/>
               Looking forward to hearing from you!
               <br/><br/>
