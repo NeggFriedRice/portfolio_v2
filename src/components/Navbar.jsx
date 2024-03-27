@@ -7,18 +7,21 @@ export default function Navbar() {
         <div className="flex justify-center aboslute">
             <motion.ul 
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{delay: 1.5, duration: 2, type: 'spring', stiffness: 200}}
+            animate={{ opacity: 1, transition: {delay: 1.5, duration: 1.5}}}
             className="flex absolute w-auto text-[1rem] lg:text-[25px] text-white p-4">
                 <li className="mx-4 lg:mx-12">
-                    <a href="#about">
+                    <motion.a 
+                    href="#about"
+                    whileHover={{ opacity: 0.5 }}>
                     About
-                    </a>
+                    </motion.a>
                 </li>
                 <li className="mx-4 lg:mx-12">
-                    <a href="#projects">
+                    <motion.a 
+                    href="#projects"
+                    whileHover={{ opacity: 0.5 }}>
                     Projects
-                    </a>
+                    </motion.a>
                 </li>
             </motion.ul>
         </div>
