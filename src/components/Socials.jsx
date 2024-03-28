@@ -5,6 +5,10 @@ export default function Socials() {
 
   const [emailToggle, setEmailToggle] = useState(false)
 
+  function copyEmail() {
+    navigator.clipboard.writeText("tomloo222@gmail.com")
+  }
+
   return (
     <div className="absolute flex justify-end px-2 right-1">
         <div className="fixed">
@@ -39,15 +43,35 @@ export default function Socials() {
               </motion.div>
               <AnimatePresence>
                 {emailToggle && (
-                  <motion.p
-                  key="email"
-                  initial={{ x: 100, rotate: 90}}
-                  animate={{ x: 0, rotate: 90}}
-                  exit={{ x:100, rotate: 90 }}
-                  transition={{ type: 'spring', stiffness: 250, damping: 16 }}
-                  className="absolute rotate-90 right-[-75px] top-[235px] lg:right-[-175px] lg:top-[420px] lg:text-[36px] text-white font-light">
-                    tomloo222@gmail.com
-                </motion.p>
+                  <div>
+                    <motion.p
+                    key="email"
+                    initial={{ x: 100, rotate: 90}}
+                    animate={{ x: 0, rotate: 90}}
+                    exit={{ x:100, rotate: 90 }}
+                    transition={{ type: 'spring', stiffness: 250, damping: 16 }}
+                    className="absolute rotate-90 right-[-75px] top-[235px] lg:right-[-175px] lg:top-[420px] lg:text-[36px] text-white font-light">
+                      tomloo222@gmail.com
+                    </motion.p>
+                    <motion.img 
+                    src="copy-clipboard.svg" 
+                    key="clipboad"
+                    initial={{ x: 100}}
+                    animate={{ x: 0, transition: { type: 'spring', stiffness: 250, damping: 16, delay: 0.3 }}}
+                    exit={{ x: 100}}
+                    whileTap={{ opacity: 0.5, scale: 0.8, transition: { duration: 0.1 }}}
+                    onClick={copyEmail}
+                    className="w-[25px] h-[25px] lg:w-[40px] lg:h-[40px] absolute top-[350px] right-[6px] lg:top-[670px] lg:right-[15px]"/>
+                                        <motion.img 
+                    src="copy-clipboard.svg" 
+                    key="clipboad"
+                    initial={{ x: 100}}
+                    animate={{ x: 0, transition: { type: 'spring', stiffness: 250, damping: 16, delay: 0.3 }}}
+                    exit={{ x: 100}}
+                    whileTap={{ opacity: 0.5, scale: 0.8, transition: { duration: 0.1 }}}
+                    onClick={copyEmail}
+                    className="w-[25px] h-[25px] lg:w-[40px] lg:h-[40px] absolute top-[350px] right-[6px] lg:top-[670px] lg:right-[15px] animate-ping"/>
+                  </div>
                 )}
               </AnimatePresence>
             
