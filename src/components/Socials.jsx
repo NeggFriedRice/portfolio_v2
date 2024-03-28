@@ -61,8 +61,8 @@ export default function Socials() {
                     exit={{ x: 100}}
                     whileTap={{ opacity: 0.5, scale: 0.8, transition: { duration: 0.1 }}}
                     onClick={copyEmail}
-                    className="w-[25px] h-[25px] lg:w-[40px] lg:h-[40px] absolute top-[350px] right-[6px] lg:top-[670px] lg:right-[15px]"/>
-                                        <motion.img 
+                    className="w-[25px] h-[25px] lg:w-[40px] lg:h-[40px] absolute top-[350px] right-[6px] lg:top-[670px] lg:right-[15px] animate-ping"/>
+                    <motion.img 
                     src="copy-clipboard.svg" 
                     key="clipboad"
                     initial={{ x: 100}}
@@ -70,7 +70,7 @@ export default function Socials() {
                     exit={{ x: 100}}
                     whileTap={{ opacity: 0.5, scale: 0.8, transition: { duration: 0.1 }}}
                     onClick={copyEmail}
-                    className="w-[25px] h-[25px] lg:w-[40px] lg:h-[40px] absolute top-[350px] right-[6px] lg:top-[670px] lg:right-[15px] animate-ping"/>
+                    className="w-[25px] h-[25px] lg:w-[40px] lg:h-[40px] absolute top-[350px] right-[6px] lg:top-[670px] lg:right-[15px] z-1"/>
                   </div>
                 )}
               </AnimatePresence>
