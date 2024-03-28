@@ -47,7 +47,7 @@ export default function CramhubModal() {
                   {/*body*/}
                   <div className="relative px-4 flex-auto">
                       <div className="my-4 text-[clamp(22px,3vw,36px)] leading-relaxed font-light font-['Lilita_One']">
-                        <ul className="list-disc px-4 text-sm lg:text-xl font-['Poppins']">
+                        <ul className="list-disc px-8 text-sm lg:text-xl font-['Poppins']">
                             <li className="my-4">With a wide range of CRUD routes available to view users, comments, posts (including attached comments) with JWT authentication this web server API is ready to go!</li>
                             <li className="my-4">Built with Python, Flask, PostgreSQL and Marshmallow</li>
                             <div className="py-2 transition-all delay-100 duration-300 ">
