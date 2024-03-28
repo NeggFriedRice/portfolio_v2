@@ -55,7 +55,7 @@ export default function Socials() {
                     </motion.p>
                     <motion.img 
                     src="copy-clipboard.svg" 
-                    key="clipboad"
+                    key="clipPing"
                     initial={{ x: 100}}
                     animate={{ x: 0, transition: { type: 'spring', stiffness: 250, damping: 16, delay: 0.3 }}}
                     exit={{ x: 100}}
@@ -64,7 +64,7 @@ export default function Socials() {
                     className="w-[25px] h-[25px] lg:w-[40px] lg:h-[40px] absolute top-[350px] right-[6px] lg:top-[670px] lg:right-[15px] animate-ping"/>
                     <motion.img 
                     src="copy-clipboard.svg" 
-                    key="clipboad"
+                    key="clip"
                     initial={{ x: 100}}
                     animate={{ x: 0, transition: { type: 'spring', stiffness: 250, damping: 16, delay: 0.3 }}}
                     exit={{ x: 100}}
