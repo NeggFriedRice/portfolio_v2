@@ -1,19 +1,12 @@
-import React from 'react'
 import Reveal from '../utils/Reveal'
-import PortfolioModal from './modals/PortfolioModal'
-import AnimeScreenModal from './modals/AnimeScreenModal'
-import CARtificateModal from './modals/CARtificateModal'
-import BeyBladeModal from './modals/BeyBladeModal'
 import BeyBlade from './projects/BeyBlade'
 import AnimeScreen from './projects/AnimeScreen'
 import PortfolioRedesign from './projects/PortfolioRedesign'
 import Cartificate from './projects/Cartificate'
+import Cramhub from './projects/Cramhub'
 
 export default function Projects() {
 
-  const iconHolderStyles = "rounded-[2rem] px-3 lg:px-8 mx-2 shadow-block-sm lg:shadow-block-smmd hover:shadow-block-smmd hover:lg:shadow-block-md transition-all duration-300 delay-75"
-  const smallIcon = "h-10 w-10 m-2 hover:scale-110 transition-all delay-75"
-  const largeIcon = "lg:h-14 lg:w-14 lg:m-2 hover:scale-110 transition-all delay-75"
 
   return (
     <div id="projects">
@@ -30,6 +23,8 @@ export default function Projects() {
             <AnimeScreen />
             <div className="w-[80vw] lg:w-[60vw] h-[1px] xxl:w-[50vw] bg-sky-400 rounded-sm"/>
             <BeyBlade />
+            <div className="w-[80vw] lg:w-[60vw] h-[1px] xxl:w-[50vw] bg-sky-400 rounded-sm"/>
+            <Cramhub />
           </div>
         </div>
     </div>

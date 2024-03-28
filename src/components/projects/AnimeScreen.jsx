@@ -7,7 +7,7 @@ export default function AnimeScreen() {
     <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
     <div className="flex justify-center items-center my-4">
       <a href="https://animescreen.vercel.app/" target="_blank">
-        <video autoPlay loop muted src="/videos/animescreen-vid.mp4" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all duration-300  delay-100 h-[300px] w-[300px]"/>
+        <video autoPlay loop muted src="/videos/animescreen-vid.mp4" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all duration-300 delay-100 h-[300px] w-[300px]"/>
       </a>
     </div>
     <div className="m-2 lg:m-8">
