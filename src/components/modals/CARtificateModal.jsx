@@ -59,7 +59,7 @@ export default function CARtificateModal() {
                               <div className="lg:flex">
                                     <div className="flex sm:flex-wrap py-2 transition-all delay-100 duration-300 items-center hover:opacity-[60%] mx-4">
                                     <span className="material-symbols-outlined lg:text-[32px] text-[26px]">rocket_launch</span>
-                                        <a href="https://cartificate.vercel.app/" target="_blank">
+                                        <a href="https://cartificate.vercel1.app/" target="_blank">
                                         <p className="mx-2 text-[18px] md:text-[1.25rem]">View project</p>
                                         </a>
                                     </div>

@@ -22,7 +22,7 @@ export default function Projects() {
             <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
               <div className="flex justify-center items-center">
                 <div className="flex justify-center items-center my-4 ">
-                  <a href="https://cartificate.vercel.app/" target="_blank">
+                  <a href="https://cartificate1.vercel.app/" target="_blank">
                     <video autoPlay loop muted src="/videos/cartificate-vid2.mp4" width="300" height="300" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all duration-300 delay-100"/>
                   </a>
                 </div>
