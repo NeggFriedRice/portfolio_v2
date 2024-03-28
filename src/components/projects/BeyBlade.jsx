@@ -5,7 +5,7 @@ export default function BeyBlade() {
   return (
     <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
     <div className="flex justify-center items-center my-4">
-      <a href="https://github.com/NeggFriedRice/terminal_app" target="_blank">
+      <a href="https://github.com/NeggFriedRice/beyblade-battle-sim" target="_blank">
        <video autoPlay loop muted src="/videos/beyblade-vid2.mp4" width="400" height="300" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all duration-300 delay-100 border-r-1 border-b-1 border-slate-600"/>
        </a>
     </div>

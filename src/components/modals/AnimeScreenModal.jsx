@@ -7,18 +7,20 @@ export default function AnimeScreenModal() {
     const [showModal, setShowModal] = useState(false);
   return (
     <>
-      <button
-        className="bg-orange-500 text-white active:bg-orange-600 hover:bg-orange-400 font-bold uppercase text-sm my-5 px-6 py-3 rounded-[12px] shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all lg:text-[1.5rem] lg:rounded-[12px] flex"
-        type="button"
-        onClick={() => setShowModal(true)}
-      >
-        {/* <span className="relative flex top-[1px] right-[12px] h-5 w-5 ">
-          <span className="animate-ping absolute inline-flex h-full w-full bg-green-600 opacity-75"></span>
-          <span className="relative inline-flex  h-5 w-5 bg-green-500 hover:bg-blue-500 hover:rotate-360 transition-all duration-500"></span>
-        </span> */}
-        <p className="px-2">Info</p><span className="animate-ping duration-2 s relative inline-flex h-full w-full">+</span>
-
-      </button>
+      <div className="flex">
+        <a href="https://animescreen.vercel.app/" target="_blank">
+          <button className="bg-teal-500 text-white active:bg-teal-600 hover:bg-teal-400 font-bold uppercase text-sm my-5 px-6 py-3 rounded-[12px] shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all lg:text-[1.5rem] lg:rounded-[12px] flex">
+            <p className="px-2">View</p><span className="material-symbols-outlined lg:text-[20px] text-[17px] animate-ping">rocket_launch</span>
+          </button>
+        </a>
+        <button
+          className="bg-orange-500 text-white active:bg-orange-600 hover:bg-orange-400 font-bold uppercase text-sm my-5 px-6 py-3 rounded-[12px] shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all lg:text-[1.5rem] lg:rounded-[12px] flex"
+          type="button"
+          onClick={() => setShowModal(true)}
+        >
+          <p className="px-2">Info</p><span className="animate-ping duration-2 s relative inline-flex h-full w-full">+</span>
+        </button>
+      </div>
           <AnimatePresence>
             {showModal && (
             <>
