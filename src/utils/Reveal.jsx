@@ -2,7 +2,7 @@ import React, { useEffect, useRef} from 'react'
 import { motion, useInView, useAnimation } from 'framer-motion'
 
 
-export default function Reveal({children, direction}) {
+export default function Reveal({ children, direction, delay }) {
 
     const ref = useRef(null)
     const isInView = useInView(ref, { once: true })
@@ -37,7 +37,7 @@ export default function Reveal({children, direction}) {
                 }}
                 initial="hidden"
                 animate={slideControls}
-                transition={{ delay: 0.15, duration: 0.5, ease: "easeIn" }}
+                transition={{ delay: [delay], duration: 0.5, ease: "easeIn" }}
                 style={{
                     position: "absolute",
                     top: 4,
