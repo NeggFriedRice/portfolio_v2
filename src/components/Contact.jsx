@@ -10,7 +10,7 @@ export default function Contact() {
     <div id="contact" className="font-light flex justify-center px-6 text-white text-[clamp(16px,2vw,36px)] py-[4vh]"> 
       <div className="w-[80vw] lg:w-[40vw] flex flex-wrap justify-center xxl:w-[30vw]">
       <div className="flex justify-items-end justify-end px-16 ">
-                <Reveal direction={"left"}>
+                <Reveal direction={"left"} delay={0.35}>
                     <div className="inline text-[clamp(26px,10vw,48px)] max-xs:text-[1.5rem]">A final note</div>
                 </Reveal>
                 </div>

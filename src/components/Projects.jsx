@@ -12,7 +12,7 @@ export default function Projects() {
     <div id="projects">
         <div className="font-light flex justify-center px-6 bg-sky-600 text-white text-[clamp(16px,2vw,36px)] py-[5vh]">
           <div className="xl:w-[55vw] lg:w-[70vw] mx-8 xxl:w-[50vw]">
-            <Reveal direction={"right"}>
+            <Reveal direction={"right"} delay={0.35}>
               <div className="inline text-[clamp(26px,10vw,48px)]">Projects</div>
             </Reveal>
             <div className="xl:w-[55vw] xxl:w-[50vw] lg:w-[70vw] w-[80vw] h-[1px] bg-white rounded-sm"/>
