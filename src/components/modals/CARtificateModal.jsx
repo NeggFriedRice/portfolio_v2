@@ -56,7 +56,7 @@ export default function CARtificateModal() {
                       <div className="my-4 text-[clamp(22px,3vw,36px)] leading-relaxed font-light font-['Lilita_One']">
                         <ul className="list-disc px-8 text-sm lg:text-xl font-['Poppins']">
                             <li className="my-4">I had the pleasure of having to sell an ageing, niche convertible sports car with a virtually-stored pile of maintenance work over the years that was lost to a similarly ageing PC that no longer wished to run. Now I no longer need to worry about losing track of my records thanks to good ol' MongoDB.</li>
-                            <li className="my-4">Featuring your very own profile, a record of your vehicle information, add/update/delete maintenance records <em>AND</em> an Excel download, get your record keeping started today!</li>
+                            <li className="my-4">Featuring your own profile, the ability to add/update/delete entries, receipt upload and save your vehicle's information, get your records digitised today!</li>
                             <div className="py-2 transition-all delay-100 duration-300 ">
                             <motion.div 
                                 initial={{ opacity: 0, transform: 'scale(1.2)' }}
