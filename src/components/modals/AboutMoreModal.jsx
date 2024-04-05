@@ -62,7 +62,7 @@ export default function AboutMoreModal() {
                       </div>
                       <div className="my-4 text-[clamp(22px,3vw,36px)] leading-relaxed font-light font-['Lilita_One']">
                         Things I do in my spare time:
-                        <ul className="list-disc px-8 text-lg lg:text-xl font-['Poppins']">
+                        <ul className="list-disc px-8 text-[1.5rem] max-xs:text-[1rem] font-['Poppins']">
                             <li>Play squash and badminton 🏸</li>
                             <li>Play board games and video games 🎲🎮</li>
                             <li>Watch anime 📺</li>
