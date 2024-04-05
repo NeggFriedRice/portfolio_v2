@@ -54,7 +54,7 @@ export default function AboutMoreModal() {
                   <div className="relative px-4 flex-auto">
                       <div className="my-4 text-[clamp(22px,3vw,36px)] leading-relaxed font-light font-['Lilita_One']">
                         Things I did before software development:
-                        <ul className="list-disc px-8 text-lg lg:text-xl font-['Poppins']">
+                        <ul className="list-disc px-8 text-[1.5rem] max-xs:text-[1rem] font-['Poppins']">
                             <li>Operations role in Melbourne</li>
                             <li>IT consultant in Hong Kong (worked on some <em>really</em> cool stuff)</li>
                             <li>Business Analyst in Hong Kong (less cool stuff, still big impact)</li>
