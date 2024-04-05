@@ -17,7 +17,7 @@ export default function About() {
                 </div>
                 <div className="py-6 flex justify-center">
                     <div className="w-[80vw] md:grid md:grid-cols-2 flex flex-wrap justify-center">
-                        <p className="py-2 col-start-1 col-span-2 text-[1.5rem] max-xs:text-[1rem]">A bright-eyed 👀, squash-playing 🎾, car-enthusiast 🚗 junior full stack web developer that likes tinkering with code and creating something <em>a little bit special</em>.</p>
+                        <p className="py-2 col-start-1 col-span-2 text-[1.5rem] max-xs:text-[1rem]">A bright-eyed 👀, squash-playing 🎾, car-enthusiast 🚗 full stack web developer that likes tinkering with code and creating something <em>a little bit special</em>.</p>
                         <div>
                             <p className="py-2 text-[1.5rem] max-xs:text-[1rem]">With experience in the MERN stack, HTML, CSS, JavaScript and a sprinkle of Python, I'm ready to hit the ground running to bring your ideas into reality.</p>
                             <AboutMoreModal />
