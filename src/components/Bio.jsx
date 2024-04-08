@@ -17,7 +17,7 @@ export default function Bio() {
               initial={{ x: 80, opacity: 0}}
               animate={{ x: 0, opacity: 1}}
               transition={{ duration: 1.5, delay: 2.1, type: "spring", stiffness: 80 }}>
-              <h1 className="text-[26px] font-['Poppins'] rotate-90 relative top-[83px] right-[-76px] text-white whitespace-break-spaces max-xs:right-[-58px] max-xs:text-[20px] max-xs:top-[72px]">Fu        l Stack Developer</h1>
+              <h1 className="text-[26px] font-['Poppins'] rotate-90 relative top-[83px] right-[-76px] text-white whitespace-break-spaces max-xs:right-[-56px] max-xs:text-[20px] max-xs:top-[72px]">Fu        l Stack Developer</h1>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 50 }}
