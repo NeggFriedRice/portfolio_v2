@@ -5,7 +5,7 @@ import Reveal from '../utils/Reveal'
 export default function Bio() {
   return (
     <>
-        <div id="home" className="flex flex-wrap justify-center h-[100vh] items-center bg-cyan-600 rounded-br-[20vh] lg:rounded-br-[30vh]">
+        <header id="home" className="flex flex-wrap justify-center h-[100vh] items-center bg-cyan-600 rounded-br-[20vh] lg:rounded-br-[30vh]">
           <div>
             <div className="">
             <Reveal direction={"left"} delay={1.25} >
@@ -27,7 +27,7 @@ export default function Bio() {
             </motion.div>
             </div>
           </div>
-        </div>
+        </header>
     </>
   )
 }

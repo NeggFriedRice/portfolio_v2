@@ -9,7 +9,7 @@ export default function Projects() {
 
 
   return (
-    <div id="projects">
+    <section id="projects">
         <div className="font-light flex justify-center px-6 bg-sky-600 text-white text-[clamp(16px,2vw,36px)] py-[5vh]">
           <div className="xl:w-[55vw] lg:w-[70vw] mx-8 xxl:w-[50vw]">
             <Reveal direction={"right"} delay={0.35}>
@@ -27,6 +27,6 @@ export default function Projects() {
             <Cramhub />
           </div>
         </div>
-    </div>
+    </section>
   )
 }

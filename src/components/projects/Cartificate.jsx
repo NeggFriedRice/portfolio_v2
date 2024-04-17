@@ -4,7 +4,7 @@ import {iconHolderStyles, smallIcon, largeIcon} from '../../utils/iconStyles'
 
 export default function Cartificate() {
   return (
-    <div className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
+    <article className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
     <div className="flex justify-center items-center">
       <div className="flex justify-center items-center my-4 ">
         <a href="https://cartificate.vercel.app/" target="_blank">
@@ -30,6 +30,6 @@ export default function Cartificate() {
           </div>
       </div>
     </div>
-  </div>
+  </article>
   )
 }

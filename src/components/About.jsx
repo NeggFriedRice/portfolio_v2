@@ -5,11 +5,11 @@ import Reveal from '../utils/Reveal'
 export default function About() {
   return (
     <>
-        <div className="font-light flex justify-center px-6 bg-teal-600 text-white text-[clamp(16px,2vw,36px)] py-[5vh]">
+        <section className="font-light flex justify-center px-6 bg-teal-600 text-white text-[clamp(16px,2vw,36px)] py-[5vh]">
             <div className="xl:w-[50vw] lg:w-[70vw] w-[100vw] xxl:w-[40vw]">
                 <div className="flex justify-items-end justify-end px-16">
                 <Reveal direction={"left"} delay={0.35}>
-                    <div className="inline text-[clamp(26px,10vw,48px)]">About</div>
+                    <h1 className="inline text-[clamp(26px,10vw,48px)]">About</h1>
                 </Reveal>
                 </div>
                 <div className="flex justify-items-end justify-end">
@@ -29,7 +29,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </>
   )
 }
