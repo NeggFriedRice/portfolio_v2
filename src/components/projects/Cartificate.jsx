@@ -14,7 +14,7 @@ export default function Cartificate() {
     </div>
     <div className="m-2 lg:m-8">
       <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[3rem]">CARtificate</h3>
-      <p className="text-[1.5rem] max-xs:text-[1rem]">A simple-to-use full stack web app to keep track of all your car information and maintenance.</p>
+      <p className="text-[1.5rem] max-xs:text-[1rem]">A simple-to-use full stack web app to digitise all of your car information and maintenance.</p>
       <CARtificateModal />
       <div className="animate-float duration-1.35s">
         <div className={`${iconHolderStyles} flex flex-wrap justify-center bg-blue-700 hover:bg-blue-800 w-[210px] lg:w-[280px] transition duration-2s my-4 mx-auto lg:mx-0`}>
