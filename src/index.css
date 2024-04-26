@@ -34,6 +34,30 @@
   animation: gradient-animation 7s ease-in-out infinite;
 }
 
+.navbar-button {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+
+.navbar-button::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navbar-button:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 @keyframes gradient-animation {
   0% {
     background-position: 0% 75%;
