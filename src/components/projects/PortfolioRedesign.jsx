@@ -5,8 +5,8 @@ export default function PortfolioRedesign() {
   return (
     <article className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
       <div className="flex justify-center items-center my-4">
-        <a href="https://www.thomasloo.dev/" target="_blank">
-        <video autoPlay loop muted src="/videos/portfolio-vid.mp4" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transition-all duration-300 delay-100 h-[300px] w-[300px] lg:h-[400px] lg:w-[400px] my-4"/>
+        <a href="https://www.thomasloo.dev/" target="_blank" className="perspective-800">
+        <video autoPlay loop muted src="/videos/portfolio-vid.mp4" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transform rotate-y-[15deg] hover:rotate-y-0 transition-all duration-300 delay-100 h-[300px] w-[300px] lg:h-[400px] lg:w-[400px] my-4"/>
         </a>
       </div>
     <div className="m-2 lg:m-8">
