@@ -6,7 +6,7 @@ export default function BeyBlade() {
     <article className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
       <div className="flex justify-center items-center my-4">
         <a href="https://github.com/NeggFriedRice/beyblade-battle-sim" target="_blank" className="perspective-800">
-          <video autoPlay loop muted src="/videos/beyblade-vid2.mp4" className="shadow-block-md hover:shadow-block-md hover:scale-105 hover:rounded-lg transform rotate-y-[15deg] hover:rotate-y-0 transition-all duration-300 delay-100 border-r-1 border-b-1 border-slate-600 w-[400px] lg:w-[475px] my-4"/>
+          <video autoPlay loop muted src="/videos/beyblade-vid2.mp4" className="shadow-block-md hover:shadow-block-md hover:scale-105 hover:rounded-lg transform rotate-y-[15deg] rotate-x-[5deg] hover:rotate-y-0 hover:rotate-x-0 transition-all duration-300 delay-100 border-r-1 border-b-1 border-slate-600 w-[400px] lg:w-[475px] my-4"/>
           </a>
       </div>
       <div className="m-2 lg:m-8">
