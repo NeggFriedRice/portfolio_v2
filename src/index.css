@@ -62,7 +62,6 @@
   transform-origin: bottom left;
 }
 
-
 @keyframes gradient-animation {
   0% {
     background-position: 0% 75%;
