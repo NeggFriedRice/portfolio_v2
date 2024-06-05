@@ -23,8 +23,8 @@ export default function About() {
                             {/* <AboutMoreModal /> */}
                         </div>
                         <div className="grid grid-cols-12 grid-rows-12 h-48 w-48 relative justify-center justify-self-center z-10">
-                            <img src="computer.png" className="col-span-8 col-start-3 row-start-6 max-h-36 max-w-72"></img>
-                            <img src="stickerhead.png" className="col-span-6 col-start-8 row-start-1 animate-bobble origin-bottom hover:animate-bobbleFast transition-all max-h-27 max-w-24"></img>
+                            <img alt="Cartoon image of a person sitting at a computer" src="computer.png" className="col-span-8 col-start-3 row-start-6 max-h-36 max-w-72"></img>
+                            <img alt="Cut out of Thomas Loo's head in sticker style" src="stickerhead.png" className="col-span-6 col-start-8 row-start-1 animate-bobble origin-bottom hover:animate-bobbleFast transition-all max-h-27 max-w-24"></img>
                         </div>
                     </div>
                 </div>

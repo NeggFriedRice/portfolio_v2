@@ -5,7 +5,7 @@ export default function Cramhub() {
   return (
     <article className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
       <div className="flex justify-center items-center my-4">
-        <a href="https://github.com/NeggFriedRice/CramHub" target="_blank" className="perspective-800">
+        <a aria-label="Link to CramHub GitHub page" href="https://github.com/NeggFriedRice/CramHub" target="_blank" className="perspective-800">
         <video autoPlay loop muted src="/videos/cramhub.mp4" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transform rotate-y-[-10deg] rotate-x-[5deg] hover:rotate-y-0 hover:rotate-x-0 transition-all duration-300 delay-100 border-r-1 border-b-1 border-slate-600  w-[300px] lg:h-[400px] lg:w-[400px] my-4"/>
         </a>
       </div>
@@ -15,9 +15,9 @@ export default function Cramhub() {
         <CramhubModal />
         <div className="animate-float duration-1.85s">
           <div className={`${iconHolderStyles} flex justify-center bg-blue-900 hover:bg-blue-800 w-[200px] lg:w-[260px] transition duration-2s my-4 mx-auto lg:mx-0`}>
-              <img src="/python.svg" className={`${smallIcon} ${largeIcon}`}/>
-              <img src="/flask.svg" className={`${smallIcon} ${largeIcon}`}/>
-              <img src="/postgresql.svg" className={`${smallIcon} ${largeIcon}`}/>
+              <img alt="python logo" src="/python.svg" className={`${smallIcon} ${largeIcon}`}/>
+              <img alt="flask logo" src="/flask.svg" className={`${smallIcon} ${largeIcon}`}/>
+              <img alt="postgresql logo" src="/postgresql.svg" className={`${smallIcon} ${largeIcon}`}/>
           </div>
         </div>
       </div>

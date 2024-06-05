@@ -6,7 +6,7 @@ export default function BodySolutions() {
   return (
     <article className="flex flex-wrap justify-center m-4 lg:grid lg:grid-cols-2">
       <div className="flex justify-center items-center my-4">
-        <a href="https://bodysolutionspdr.com.au/" target="_blank" className="perspective-800">
+        <a aria-label="Link to Body Solutions PDR website" href="https://bodysolutionspdr.com.au/" target="_blank" className="perspective-800">
           <video autoPlay loop muted src="/videos/bodysolutionspdr-vid.mp4" className="shadow-block-md hover:shadow-block-lg hover:scale-105 hover:rounded-lg transform rotate-y-[-10deg]  rotate-x-[5deg] hover:rotate-y-0 hover:rotate-x-0 transition-all duration-300 delay-100 h-[300px] w-[300px] lg:h-[400px] lg:w-[400px] my-4"/>
         </a>
       </div>
@@ -16,11 +16,11 @@ export default function BodySolutions() {
         <BodySolutionsModal />
         <div className="animate-float duration-2s">
             <div className={`${iconHolderStyles} flex justify-center bg-blue-900 hover:bg-blue-800 w-[300px] lg:w-[400px] transition duration-2s my-4 mx-auto lg:mx-0`}>
-                <img src="/html.svg" className={`${smallIcon} ${largeIcon}`}/>
-                <img src="/css.svg" className={`${smallIcon} ${largeIcon}`}/>
-                <img src="/tailwindcss.svg" className={`${smallIcon} ${largeIcon}`}/>
-                <img src="/js.svg" className={`${smallIcon} ${largeIcon}`}/>
-                <img src="/react.svg" className={`${smallIcon} ${largeIcon}`}/>
+                <img alt="html logo" src="/html.svg" className={`${smallIcon} ${largeIcon}`}/>
+                <img alt="css logo" src="/css.svg" className={`${smallIcon} ${largeIcon}`}/>
+                <img alt="tailwind css logo" src="/tailwindcss.svg" className={`${smallIcon} ${largeIcon}`}/>
+                <img alt="javascript logo" src="/js.svg" className={`${smallIcon} ${largeIcon}`}/>
+                <img alt="react logo" src="/react.svg" className={`${smallIcon} ${largeIcon}`}/>
             </div>
         </div>
       </div>

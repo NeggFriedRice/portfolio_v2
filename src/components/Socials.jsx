@@ -13,7 +13,7 @@ export default function Socials() {
     <div className="absolute flex justify-end px-2 right-1">
         <div className="fixed">
             <div className="py-2 hover:scale-[90%] transition-all delay-100 duration-300 hover:opacity-60">
-                <a href="https://github.com/NeggFriedRice" target="_blank">
+                <a aria-label="Link to NeggFriedRice's GitHub page" href="https://github.com/NeggFriedRice" target="_blank">
                 <motion.svg 
                   initial={{ x: 100 }}
                   animate={{ x: 0 }}
@@ -24,7 +24,7 @@ export default function Socials() {
                 </a>
             </div>
             <div className="py-2 hover:scale-[90%] transition-all delay-100 duration-300 hover:opacity-60">
-                <a href="https://www.linkedin.com/in/thomas-loo" target="_blank">
+                <a aria-label="Link to Thomas Loo's LinkedIn page" href="https://www.linkedin.com/in/thomas-loo" target="_blank">
                 <motion.svg
                   initial={{ x: 100 }}
                   animate={{ x: 0 }}
@@ -39,7 +39,7 @@ export default function Socials() {
               animate={{ x: 0 }}
               transition={{ delay: 3.2, duration: 2, type: 'spring', stiffness: 200}}
               className="py-2" onClick={() => setEmailToggle(emailToggle => !emailToggle)}>
-              <img className="h-[35px] lg:h-[60px] hover:scale-[90%] transition-all delay-100 duration-300 hover:opacity-60" src="email.svg" />
+              <img alt="White outlined email icon" className="h-[35px] lg:h-[60px] hover:scale-[90%] transition-all delay-100 duration-300 hover:opacity-60" src="email.svg" />
               </motion.div>
               <AnimatePresence>
                 {emailToggle && (
