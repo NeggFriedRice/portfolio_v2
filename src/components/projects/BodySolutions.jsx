@@ -15,7 +15,7 @@ export default function BodySolutions() {
         <p className="text-[1.5rem] max-xs:text-[1rem]">Website design & build for a local trade business specialising in mobile paintless dent repair.</p>
         <BodySolutionsModal />
         <div className="animate-float duration-2s">
-            <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[300px] lg:w-[400px] transition duration-2s my-4 mx-auto lg:mx-0`}>
+            <div className={`${iconHolderStyles} flex justify-center bg-blue-900 hover:bg-blue-800 w-[300px] lg:w-[400px] transition duration-2s my-4 mx-auto lg:mx-0`}>
                 <img src="/html.svg" className={`${smallIcon} ${largeIcon}`}/>
                 <img src="/css.svg" className={`${smallIcon} ${largeIcon}`}/>
                 <img src="/tailwindcss.svg" className={`${smallIcon} ${largeIcon}`}/>

@@ -17,7 +17,7 @@ export default function Stack() {
     <>
     <section id="about" className="font-light flex justify-center px-6 text-white text-[clamp(16px,2vw,36px)] py-[4vh]"> 
       <div className="lg:w-70vw]">
-          <div className="w-[80vw] lg:w-[60vw] h-[1px] bg-indigo-500 rounded-sm"></div>
+          {/* <div className="w-[80vw] lg:w-[60vw] h-[1px] bg-[#fcba03] rounded-sm"></div> */}
           <div className="flex py-6 justify-center">
               {/* <div className="w-[60vw] px-4 grid grid-cols-3 place-items-center lg:flex lg:justify-center"> */}
                 <PopReveal>

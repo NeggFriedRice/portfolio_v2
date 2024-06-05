@@ -9,12 +9,12 @@ export default function BodySolutionsModal() {
     <>
       <div className="flex">
         <a href="https://bodysolutionspdr.com.au/" target="_blank">
-          <button className="bg-teal-500 text-white active:bg-teal-600 hover:bg-teal-400 font-bold uppercase text-sm my-5 px-6 py-3 rounded-[12px] shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all lg:text-[1.5rem] lg:rounded-[12px] flex">
+          <button className="bg-teal-700 text-white active:bg-teal-600 hover:bg-teal-600 font-bold uppercase text-sm my-5 px-6 py-3 rounded-[12px] shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all lg:text-[1.5rem] lg:rounded-[12px] flex">
             <p className="px-2">View</p><span className="material-symbols-outlined lg:text-[20px] text-[17px] animate-ping">rocket_launch</span>
           </button>
         </a>
         <button
-          className="bg-orange-500 text-white active:bg-orange-600 hover:bg-orange-400 font-bold uppercase text-sm my-5 px-6 py-3 rounded-[12px] shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all lg:text-[1.5rem] lg:rounded-[12px] flex"
+          className="bg-orange-700 text-white active:bg-orange-600 hover:bg-orange-600 font-bold uppercase text-sm my-5 px-6 py-3 rounded-[12px] shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all lg:text-[1.5rem] lg:rounded-[12px] flex"
           type="button"
           onClick={() => setShowModal(true)}
         >
@@ -34,7 +34,7 @@ export default function BodySolutionsModal() {
               initial='hidden'
               animate='visible'
               exit='exit'
-              transition={{ duration: 0.5, delay: 0.1 }}>
+              transition={{ duration: 0.75, delay: 0.1, ease: 'backInOut' }}>
               <div className="w-[80vw] relative my-6 mx-auto max-w-3xl">
                 {/*content*/}
                 <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-blue-900 outline-none focus:outline-none">

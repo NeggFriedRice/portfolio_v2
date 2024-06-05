@@ -29,9 +29,15 @@
 }
 
 .gradient-background {
-  background: linear-gradient(128deg,rgb(96, 215, 255),#480f93,#4985df);
+  background: linear-gradient(128deg,rgb(157, 157, 33),#13194f,#ef8631);
   background-size: 250% 250%;
-  animation: gradient-animation 7s ease-in-out infinite;
+  animation: gradient-animation 9s ease-in-out infinite;
+}
+
+.projects-gradient {
+  background: linear-gradient(135deg,rgb(22, 102, 94),#2d1c42,#1e408a);
+  background-size: 200% 200%;
+  animation: gradient-animation 12s ease-in-out infinite;
 }
 
 .navbar-button {

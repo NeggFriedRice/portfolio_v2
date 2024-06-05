@@ -14,7 +14,7 @@ export default function BeyBlade() {
         <p className="text-[1.5rem] max-xs:text-[1rem]">A quick terminal-based three-round text-game planting you smack bang in the middle of the Beyblade Universe (<em>geeky, I know...)</em></p>
         <BeyBladeModal />
         <div className="animate-float duration-1.85s">
-          <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[100px] lg:w-[150px] transition duration-2s my-4 mx-auto lg:mx-0`}>
+          <div className={`${iconHolderStyles} flex justify-center bg-blue-900 hover:bg-blue-800 w-[100px] lg:w-[150px] transition duration-2s my-4 mx-auto lg:mx-0`}>
               <img src="/python.svg" className={`${smallIcon} ${largeIcon}`}/>
           </div>
         </div>

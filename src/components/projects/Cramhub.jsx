@@ -14,7 +14,7 @@ export default function Cramhub() {
         <p className="text-[1.5rem] max-xs:text-[1rem]">A complete API backend for a hypothetical student-sourced study platform, endearingly named CramHub, with the ability to submit user-tagged posts and comments</p>
         <CramhubModal />
         <div className="animate-float duration-1.85s">
-          <div className={`${iconHolderStyles} flex justify-center bg-blue-700 hover:bg-blue-800 w-[200px] lg:w-[260px] transition duration-2s my-4 mx-auto lg:mx-0`}>
+          <div className={`${iconHolderStyles} flex justify-center bg-blue-900 hover:bg-blue-800 w-[200px] lg:w-[260px] transition duration-2s my-4 mx-auto lg:mx-0`}>
               <img src="/python.svg" className={`${smallIcon} ${largeIcon}`}/>
               <img src="/flask.svg" className={`${smallIcon} ${largeIcon}`}/>
               <img src="/postgresql.svg" className={`${smallIcon} ${largeIcon}`}/>
