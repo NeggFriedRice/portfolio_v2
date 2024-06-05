@@ -5,6 +5,7 @@ import PortfolioRedesign from './projects/PortfolioRedesign'
 import Cartificate from './projects/Cartificate'
 import Cramhub from './projects/Cramhub'
 import BodySolutions from './projects/BodySolutions'
+import Blipmail from './projects/Blipmail'
 
 export default function Projects() {
 
@@ -17,11 +18,13 @@ export default function Projects() {
               <div className="inline text-[clamp(26px,10vw,48px)]">Projects</div>
             </Reveal>
             <div className="xl:w-[55vw] xxl:w-[50vw] lg:w-[70vw] w-[80vw] h-[1px] bg-white rounded-sm"/>
+            <Blipmail />
+            <div className="w-[80vw] lg:w-[60vw] xxl:w-[50vw] h-[1px] bg-sky-400 rounded-sm"/>
             <Cartificate />
             <div className="w-[80vw] lg:w-[60vw] xxl:w-[50vw] h-[1px] bg-sky-400 rounded-sm"/>
             <BodySolutions />
-            <div className="w-[80vw] lg:w-[60vw] xxl:w-[50vw] h-[1px] bg-sky-400 rounded-sm"/>
-            <PortfolioRedesign />
+            {/* <div className="w-[80vw] lg:w-[60vw] xxl:w-[50vw] h-[1px] bg-sky-400 rounded-sm"/>
+            <PortfolioRedesign /> */}
             <div className="w-[80vw] lg:w-[60vw] xxl:w-[50vw] h-[1px] bg-sky-400 rounded-sm"/>
             <AnimeScreen />
             <div className="w-[80vw] lg:w-[60vw] h-[1px] xxl:w-[50vw] bg-sky-400 rounded-sm"/>
