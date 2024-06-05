@@ -57,7 +57,7 @@ export default function BlipmailModal() {
                   <div className="relative px-4 flex-auto">
                       <div className="my-4 text-[clamp(22px,3vw,36px)] leading-relaxed font-light font-['Lilita_One']">
                         <ul className="list-disc px-8 text-base lg:text-xl font-['Poppins']">
-                            <li className="my-4"><p>Built to make scanning through new emails more efficient by allowing me to scan Telegram blurbs instead of checking individual emails; Blipmail Bot checks for emails every 30 minutes.</p></li>
+                            <li className="my-4"><p>Built to make scanning through new emails more efficient by allowing users to scan small and quick messages instead of clicking into individual emails; Blipmail Bot checks for emails every 30 minutes.</p></li>
                             <li className="my-4"><p>Utilises the Groq API which uses the llama3-8b-8192 language model, telebot library to communicate through Telegram and the simplegmail library making fetching emails easy as pie!</p></li>
                             <div className="py-2 transition-all delay-100 duration-300 hover:opacity-60">
                             <motion.div 

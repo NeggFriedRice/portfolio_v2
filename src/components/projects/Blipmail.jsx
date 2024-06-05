@@ -11,7 +11,7 @@ export default function Blipmail() {
       </div>
       <div className="m-2 lg:m-8">
         <h3 className="text-center lg:text-left font-['Lilita_One'] text-[2rem] lg:text-[2.5rem]">Blipmail Bot</h3>
-        <p className="text-[1.5rem] max-xs:text-[1rem]">An AI-powered Telegram bot that summarises my emails into Telegram messages of 30 words or less.</p>
+        <p className="text-[1.5rem] max-xs:text-[1rem]">An AI-powered Telegram bot that summarises emails into messages of 30 words or less.</p>
 
         <BlipmailModal />
         <div className="animate-float duration-1.85s">
