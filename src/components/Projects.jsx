@@ -27,9 +27,9 @@ export default function Projects() {
             <div className="w-[80vw] lg:w-[60vw] xxl:w-[50vw] h-[1px] bg-gray-500 rounded-sm"/>
             <AnimeScreen />
             <div className="w-[80vw] lg:w-[60vw] h-[1px] xxl:w-[50vw] bg-gray-500 rounded-sm"/>
-            <BeyBlade />
-            <div className="w-[80vw] lg:w-[60vw] h-[1px] xxl:w-[50vw] bg-gray-500 rounded-sm"/>
             <Cramhub />
+            <div className="w-[80vw] lg:w-[60vw] h-[1px] xxl:w-[50vw] bg-gray-500 rounded-sm"/>
+            <BeyBlade />
           </div>
         </div>
     </section>
