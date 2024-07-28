@@ -68,6 +68,11 @@
   transform-origin: bottom left;
 }
 
+.sticky-box {
+  z-index: 1000;
+  position: relative;
+}
+
 @keyframes gradient-animation {
   0% {
     background-position: 0% 75%;
