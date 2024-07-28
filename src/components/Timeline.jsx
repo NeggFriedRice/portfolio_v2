@@ -39,7 +39,7 @@ function Timeline() {
         iconStyle={{ background: "rgb(2, 38, 64)", color: "#fff" }}
         icon={
           <div className="h-[100%] flex justify-center place-items-center">
-        <img src="/HSBCLogo.png" className="w-[40px]"/>
+        <img src="/HSBCLogo.png" className="w-[40px] max-xs:w-[30px]"/>
         </div>
       }
       >
@@ -60,7 +60,7 @@ function Timeline() {
         iconStyle={{ background: "rgb(2, 38, 64)", color: "#fff" }}
         icon={
           <div className="h-[100%] flex justify-center place-items-center">
-        <img src="/AXALogo.jpg" className="w-[40px]"/>
+        <img src="/AXALogo.jpg" className="w-[40px] max-xs:w-[30px]"/>
         </div>
       }
       >
