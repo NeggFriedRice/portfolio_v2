@@ -38,6 +38,12 @@
   animation: gradient-animation 12s ease-in-out infinite;
 }
 
+#root > section.font-light.flex.justify-center.px-6.bg-gray-800.text-white.text-\[clamp\(16px\,2vw\,36px\)\].py-\[5vh\] > div > div.pt-12 > div > div:nth-child(1) > div {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient-animation 15s ease infinite;
+}
+
 .navbar-button {
   display: inline-block;
   position: relative;
