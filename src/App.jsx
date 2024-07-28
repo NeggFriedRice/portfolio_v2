@@ -9,6 +9,7 @@ import StickyBox from "react-sticky-box"
 import Socials from './components/Socials'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import ContactForm from './components/ContactForm'
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
       <Stack />
       <About />
       <Projects />
-      <Contact />
+      <ContactForm />
       <Footer />
     </>
   )
